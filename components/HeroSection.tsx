@@ -1,40 +1,10 @@
 import React from "react";
-import { BiPound } from "react-icons/bi";
-import {
-  FaRegThumbsUp,
-  FaClipboardList,
-  FaUsersCog,
-  FaCheck,
-  FaHeadset,
-} from "react-icons/fa";
-import { FiCheckSquare } from "react-icons/fi";
+import data from "./Data";
 
 interface Props {
   children: React.ReactNode;
   icon?: React.ReactNode;
 }
-const data = [
-  {
-    text: "One of the most affordable contractors in the UK",
-    icon: <BiPound size="24px" className="mr-0.5" />,
-  },
-  { text: "Positive feedback from previous clients", icon: <FaRegThumbsUp /> },
-  {
-    text: "Available client references for your peace of mind",
-    icon: <FiCheckSquare />,
-  },
-  {
-    text: "We work to client`s deadlines and budgets strictly",
-    icon: <FaClipboardList />,
-  },
-  { text: "Every project is quality supervised", icon: <FaUsersCog /> },
-  { text: "Government approved credentials", icon: <FaCheck /> },
-  {
-    text: "Live Chat support to give you 24/7 live help",
-    icon: <FaHeadset />,
-  },
-  { number: "98%", title: "Quality" },
-];
 
 const NavLists = (props: Props) => {
   const { children, icon } = props;
@@ -50,7 +20,7 @@ const NavLists = (props: Props) => {
 
 const HeroSection: React.FC = () => {
   return (
-    <div className="relative w-full h-screen ">
+    <div className="relative w-full  ">
       <video
         className="object-cover w-full h-[450px] "
         src="../assets/video_Sales.mp4"
@@ -64,8 +34,8 @@ const HeroSection: React.FC = () => {
           Why Choose British Builders?
         </h1>
         <ul className="text-[#FAFAFB] text-xl">
-          {data.map((item, index) => (
-            <NavLists key={index} icon={item.icon}>
+          {data.map((item) => (
+            <NavLists key={item.text} icon={item.icon}>
               {item.text}
             </NavLists>
           ))}
