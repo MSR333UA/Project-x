@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./Data";
+import { dataHero } from "./Data";
 
 interface Props {
   children: React.ReactNode;
@@ -34,7 +34,7 @@ const HeroSection: React.FC = () => {
           Why Choose British Builders?
         </h1>
         <ul className="text-[#FAFAFB] text-xl">
-          {data.map((item) => (
+          {dataHero.map((item) => (
             <NavLists key={item.text} icon={item.icon}>
               {item.text}
             </NavLists>
@@ -42,9 +42,9 @@ const HeroSection: React.FC = () => {
         </ul>
       </div>
       <div>
-        <ul>
+        {/* <ul>
           <li></li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

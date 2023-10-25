@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import type { Metadata } from "next";
 import HeroSection from "@/components/HeroSection";
 import Counter from "@/components/Counter";
+import Icons from "@/components/Icons";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,6 +16,7 @@ export default function Home() {
     <>
       <HeroSection />
       <Counter />
+      <Icons />
     </>
   );
 }
