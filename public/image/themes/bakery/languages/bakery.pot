@@ -1,0 +1,5775 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bakery Theme\n"
+"Language-Team: Milingona <support@milingona.co>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: woocommerce\n"
+"X-Poedit-SearchPathExcluded-2: includes/lib/twitter\n"
+"X-Poedit-SearchPathExcluded-3: includes/lib/class-tgm-plugin-activation.php\n"
+
+#: 404.php:9
+msgid "ERROR 404"
+msgstr ""
+
+#: 404.php:13
+msgid ""
+"The page you requested could not be found. Try refining your search, or use "
+"the navigation above to locate the post."
+msgstr ""
+
+#: 404.php:15
+msgid "Return to home"
+msgstr ""
+
+#: archive.php:17 author.php:17 category.php:17 tag.php:17
+msgid "No posts found"
+msgstr ""
+
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:14 includes/post-templates/entry-audio.php:8
+#: includes/post-templates/entry-gallery.php:8
+#: includes/post-templates/entry-image.php:8
+#: includes/post-templates/entry-video.php:8
+#: includes/post-templates/entry.php:8 includes/shortcodes/blog-posts.php:83
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:14
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:14 includes/post-templates/entry-audio.php:8
+#: includes/post-templates/entry-gallery.php:8
+#: includes/post-templates/entry-image.php:8
+#: includes/post-templates/entry-video.php:8
+#: includes/post-templates/entry.php:8 includes/shortcodes/blog-posts.php:83
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:22 includes/vu-functions.php:903 search.php:23 single.php:31
+msgid "prev"
+msgstr ""
+
+#: comments.php:25 includes/vu-functions.php:904 search.php:26 single.php:33
+msgid "next"
+msgstr ""
+
+#: comments.php:45
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:46
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:47
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:48
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:49
+msgid "Your comment here"
+msgstr ""
+
+#: comments.php:50
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:51
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:52
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:57 includes/shortcodes/map-and-contact-form.php:136
+msgid "Your name here"
+msgstr ""
+
+#: comments.php:60 includes/shortcodes/map-and-contact-form.php:144
+msgid "Your email here"
+msgstr ""
+
+#: comments.php:63
+msgid "Your website here"
+msgstr ""
+
+#: header.php:86 header.php:126 header.php:168 header.php:223
+#: includes/vu-functions.php:46
+msgid "was successfully added to your cart."
+msgstr ""
+
+#: header.php:254
+#, php-format
+msgid "All products from '%s' category"
+msgstr ""
+
+#: header.php:262
+#, php-format
+msgid "All products tagged with '%s'"
+msgstr ""
+
+#: header.php:268
+#, php-format
+msgid "All portfolio items from '%s' category"
+msgstr ""
+
+#: header.php:270
+#, php-format
+msgid "All portfolio items tagged with '%s'"
+msgstr ""
+
+#: header.php:278
+#, php-format
+msgid "All posts tagged with '%s'"
+msgstr ""
+
+#: header.php:282
+#, php-format
+msgid "All posts from '%s' category"
+msgstr ""
+
+#: header.php:288
+#, php-format
+msgid "Posts by '%s'"
+msgstr ""
+
+#: header.php:299
+#, php-format
+msgid "Archives from '%s'"
+msgstr ""
+
+#: header.php:306
+msgid "Search"
+msgstr ""
+
+#: header.php:307
+#, php-format
+msgid "Search results for: '%s'"
+msgstr ""
+
+#: header.php:315
+msgid "Page not found"
+msgstr ""
+
+#: header.php:316
+msgid "Oppss something went wrong"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:11
+msgid "Page Header Settings"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:31
+msgid "Page Header Style"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:35
+#: includes/options/redux-framework.php:1900 includes/shortcodes/map.php:211
+msgid "Default"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:36
+msgid "Custom"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:37
+#: includes/shortcodes/image-slider.php:112
+#: includes/shortcodes/image-slider.php:125
+msgid "None"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:42
+msgid "Titile"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:43
+msgid "Enter in the page header title"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:49
+#: includes/shortcodes/gallery-item.php:118
+#: includes/shortcodes/map-and-contact-form.php:126
+#: includes/shortcodes/title-section.php:70
+msgid "Subtitle"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:50
+msgid "Enter in the page header subtitle"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:56
+#: includes/options/bakery-options.php:2767
+msgid "Background Image"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:57
+msgid ""
+"The image should be between 1600px - 2000px in width and have a minimum "
+"height of 300px for best results. Click the \"Upload\" button to begin "
+"uploading your image, followed by \"Select File\" once you have made your "
+"selection."
+msgstr ""
+
+#: includes/meta/page-header-settings.php:62 includes/meta/post-meta.php:58
+#: includes/vu-actions.php:136 includes/vu-actions.php:140
+msgid "Add Image"
+msgstr ""
+
+#: includes/meta/page-header-settings.php:62 includes/meta/post-meta.php:58
+#: includes/meta/post-meta.php:117
+#: includes/options/inc/fields/background/field_background.php:314
+#: includes/options/inc/fields/media/field_media.php:198
+#: includes/options/inc/fields/slides/field_slides.php:126
+#: includes/options/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: includes/meta/post-meta.php:11
+msgid "Post Format Settings"
+msgstr ""
+
+#: includes/meta/post-meta.php:32
+msgid "M4V File URL"
+msgstr ""
+
+#: includes/meta/post-meta.php:33
+msgid ""
+"Please upload the .m4v video file.<br><b>You must include both formats.</b>"
+msgstr ""
+
+#: includes/meta/post-meta.php:37 includes/meta/post-meta.php:47
+msgid "Choose a File"
+msgstr ""
+
+#: includes/meta/post-meta.php:37 includes/meta/post-meta.php:47
+msgid "Select File"
+msgstr ""
+
+#: includes/meta/post-meta.php:37 includes/meta/post-meta.php:47
+msgid "Add Media"
+msgstr ""
+
+#: includes/meta/post-meta.php:42
+msgid "OGV File URL"
+msgstr ""
+
+#: includes/meta/post-meta.php:43
+msgid ""
+"Please upload the .ogv video file  <br/><b>You must include both formats.</b>"
+msgstr ""
+
+#: includes/meta/post-meta.php:52
+msgid "Preview Image"
+msgstr ""
+
+#: includes/meta/post-meta.php:53
+msgid ""
+"Image should be at least 680px wide. Click the \"Upload\" button to begin "
+"uploading your image, followed by \"Select File\" once you have made your "
+"selection. Only applies to self hosted videos."
+msgstr ""
+
+#: includes/meta/post-meta.php:63
+msgid "Embedded Code"
+msgstr ""
+
+#: includes/meta/post-meta.php:64
+msgid ""
+"If the video is an embed rather than self hosted, enter in a Vimeo or "
+"Youtube embed code here. <b>Embeds work worse with the parallax effect, but "
+"if you must use this, Vimeo is recommended.</b>"
+msgstr ""
+
+#: includes/meta/post-meta.php:79
+msgid "MP3 File URL"
+msgstr ""
+
+#: includes/meta/post-meta.php:80
+msgid "Please enter in the URL to the .mp3 file"
+msgstr ""
+
+#: includes/meta/post-meta.php:86
+msgid "OGA File URL"
+msgstr ""
+
+#: includes/meta/post-meta.php:87
+msgid "Please enter in the URL to the .ogg or .oga file"
+msgstr ""
+
+#: includes/meta/post-meta.php:100 includes/shortcodes/gallery.php:99
+msgid "Gallery"
+msgstr ""
+
+#: includes/meta/post-meta.php:101
+msgid ""
+"Click the \"Upload\" button to begin uploading your images, followed by "
+"\"Add Images\" once you have made your selection."
+msgstr ""
+
+#: includes/meta/post-meta.php:117 includes/vu-actions.php:137
+#: includes/vu-actions.php:141
+msgid "Add Images"
+msgstr ""
+
+#: includes/options/bakery-options.php:58
+msgid "Theme URL"
+msgstr ""
+
+#: includes/options/bakery-options.php:63
+msgid "Author"
+msgstr ""
+
+#: includes/options/bakery-options.php:68
+#: includes/options/inc/welcome/views/status_report.php:715
+msgid "Version"
+msgstr ""
+
+#: includes/options/bakery-options.php:72
+msgid "Tags"
+msgstr ""
+
+#: includes/options/bakery-options.php:77
+msgid "Documentation"
+msgstr ""
+
+#: includes/options/bakery-options.php:85
+msgid "Thank you!"
+msgstr ""
+
+#: includes/options/bakery-options.php:103 includes/shortcodes/map.php:139
+#: includes/shortcodes/map.php:150 includes/shortcodes/map.php:160
+#: includes/shortcodes/map.php:170 includes/shortcodes/map.php:180
+#: includes/shortcodes/map.php:190 includes/shortcodes/map.php:205
+#: includes/shortcodes/map.php:238 includes/shortcodes/map.php:248
+#: includes/shortcodes/map.php:259 includes/shortcodes/map.php:270
+#: includes/shortcodes/map.php:280 includes/shortcodes/map.php:290
+#: includes/shortcodes/map.php:300 includes/shortcodes/map.php:310
+#: includes/shortcodes/map.php:320 includes/shortcodes/map.php:330
+msgid "General"
+msgstr ""
+
+#: includes/options/bakery-options.php:111
+msgid "Favicon"
+msgstr ""
+
+#: includes/options/bakery-options.php:112
+msgid "Upload your site's favicon."
+msgstr ""
+
+#: includes/options/bakery-options.php:113
+msgid ""
+"File dimension should be 16 x 16 pixels in .png or .ico formats.<br>Note: "
+"Old IEs will work only if you upload an <b>.ico</b> image."
+msgstr ""
+
+#: includes/options/bakery-options.php:119
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: includes/options/bakery-options.php:120
+msgid "Upload your site's apple touch icon."
+msgstr ""
+
+#: includes/options/bakery-options.php:121
+msgid "File dimension should be 129 x 129 pixels in <b>.png</b> format."
+msgstr ""
+
+#: includes/options/bakery-options.php:126
+msgid "Open Graph meta data"
+msgstr ""
+
+#: includes/options/bakery-options.php:128
+msgid "Turn on to show Open Graph meta data."
+msgstr ""
+
+#: includes/options/bakery-options.php:129
+#: includes/options/bakery-options.php:139
+#: includes/options/bakery-options.php:149
+#: includes/options/bakery-options.php:159
+#: includes/options/bakery-options.php:244
+#: includes/options/bakery-options.php:439
+#: includes/options/bakery-options.php:529
+#: includes/options/bakery-options.php:562
+#: includes/options/bakery-options.php:603
+#: includes/options/bakery-options.php:635
+#: includes/options/bakery-options.php:645
+#: includes/options/bakery-options.php:706
+#: includes/options/bakery-options.php:746
+#: includes/options/bakery-options.php:771
+#: includes/options/bakery-options.php:925
+#: includes/options/bakery-options.php:973
+#: includes/options/bakery-options.php:1102
+#: includes/options/bakery-options.php:1112
+#: includes/options/bakery-options.php:1144
+#: includes/options/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: includes/options/bakery-options.php:130
+#: includes/options/bakery-options.php:140
+#: includes/options/bakery-options.php:150
+#: includes/options/bakery-options.php:160
+#: includes/options/bakery-options.php:245
+#: includes/options/bakery-options.php:440
+#: includes/options/bakery-options.php:530
+#: includes/options/bakery-options.php:563
+#: includes/options/bakery-options.php:604
+#: includes/options/bakery-options.php:636
+#: includes/options/bakery-options.php:646
+#: includes/options/bakery-options.php:707
+#: includes/options/bakery-options.php:747
+#: includes/options/bakery-options.php:772
+#: includes/options/bakery-options.php:926
+#: includes/options/bakery-options.php:974
+#: includes/options/bakery-options.php:1103
+#: includes/options/bakery-options.php:1113
+#: includes/options/bakery-options.php:1145
+#: includes/options/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: includes/options/bakery-options.php:136
+msgid "Animation"
+msgstr ""
+
+#: includes/options/bakery-options.php:138
+msgid "Turn on to show elements with animations."
+msgstr ""
+
+#: includes/options/bakery-options.php:146
+msgid "Smooth Scroll"
+msgstr ""
+
+#: includes/options/bakery-options.php:148
+msgid "Turn on to enabale smooth scrolling."
+msgstr ""
+
+#: includes/options/bakery-options.php:156
+msgid "Preloader"
+msgstr ""
+
+#: includes/options/bakery-options.php:158
+msgid "Turn on to show preloader while page is loading."
+msgstr ""
+
+#: includes/options/bakery-options.php:168
+msgid "Preloader image"
+msgstr ""
+
+#: includes/options/bakery-options.php:178
+msgid "Site Mode"
+msgstr ""
+
+#: includes/options/bakery-options.php:180
+msgid ""
+"Select site's mode. Note: If 'Under Construction' mode is selected, only "
+"logged in users will be able to see the real site's content."
+msgstr ""
+
+#: includes/options/bakery-options.php:192
+msgid "Maintenance or Coming Soon Page"
+msgstr ""
+
+#: includes/options/bakery-options.php:194
+msgid "Select maintenance or coming soon page."
+msgstr ""
+
+#: includes/options/bakery-options.php:202
+msgid "Styling"
+msgstr ""
+
+#: includes/options/bakery-options.php:221
+msgid "Primary Color"
+msgstr ""
+
+#: includes/options/bakery-options.php:223
+msgid "Select primary color of your theme."
+msgstr ""
+
+#: includes/options/bakery-options.php:231
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/options/bakery-options.php:233
+msgid "Select secondary color of your theme."
+msgstr ""
+
+#: includes/options/bakery-options.php:241
+msgid "Boxed Layout"
+msgstr ""
+
+#: includes/options/bakery-options.php:243
+msgid ""
+"Turn on to enable Boxed Layout. If enabled you can use an image as backgroud."
+msgstr ""
+
+#: includes/options/bakery-options.php:251
+msgid "Background"
+msgstr ""
+
+#: includes/options/bakery-options.php:253
+msgid ""
+"Upload a large and beatiful background image for your site. Note: This will "
+"override the background color and background pattern."
+msgstr ""
+
+#: includes/options/bakery-options.php:262
+msgid "Pattern"
+msgstr ""
+
+#: includes/options/bakery-options.php:264
+msgid ""
+"Select the pattern that will be applied to the background. Note: This will "
+"override the background color."
+msgstr ""
+
+#: includes/options/bakery-options.php:294
+msgid "Typography"
+msgstr ""
+
+#: includes/options/bakery-options.php:301
+msgid "Body"
+msgstr ""
+
+#: includes/options/bakery-options.php:321
+msgid "Navigation"
+msgstr ""
+
+#: includes/options/bakery-options.php:343
+msgid "Navigation Submenu"
+msgstr ""
+
+#: includes/options/bakery-options.php:366
+msgid "Header Title"
+msgstr ""
+
+#: includes/options/bakery-options.php:386
+msgid "Header Subtitle"
+msgstr ""
+
+#: includes/options/bakery-options.php:406
+msgid "Headings"
+msgstr ""
+
+#: includes/options/bakery-options.php:417
+msgid "Select h1, h2, h3, h4, h5, h6 font family, font weight & style"
+msgstr ""
+
+#: includes/options/bakery-options.php:429
+msgid "Header"
+msgstr ""
+
+#: includes/options/bakery-options.php:436
+msgid "Show Top Bar"
+msgstr ""
+
+#: includes/options/bakery-options.php:438
+msgid "Turn on to show top bar above main menu"
+msgstr ""
+
+#: includes/options/bakery-options.php:447
+msgid "Top Bar Left"
+msgstr ""
+
+#: includes/options/bakery-options.php:449
+msgid "Enter top bar left side content."
+msgstr ""
+
+#: includes/options/bakery-options.php:456
+msgid "Top Bar Right"
+msgstr ""
+
+#: includes/options/bakery-options.php:458
+msgid "Enter top bar right side contnt."
+msgstr ""
+
+#: includes/options/bakery-options.php:464
+msgid "Header Type"
+msgstr ""
+
+#: includes/options/bakery-options.php:466
+msgid "Select header type."
+msgstr ""
+
+#: includes/options/bakery-options.php:478
+msgid "Logo"
+msgstr ""
+
+#: includes/options/bakery-options.php:480
+msgid "Upload a custom logo for your site."
+msgstr ""
+
+#: includes/options/bakery-options.php:490
+msgid "Logo Container Width"
+msgstr ""
+
+#: includes/options/bakery-options.php:492
+msgid "Enter logo container width in px."
+msgstr ""
+
+#: includes/options/bakery-options.php:501
+msgid "Main Menu Item Padding"
+msgstr ""
+
+#: includes/options/bakery-options.php:503
+msgid "Enter main menu item top, right, bottom and left padding."
+msgstr ""
+
+#: includes/options/bakery-options.php:517
+msgid "Hamburger Menu"
+msgstr ""
+
+#: includes/options/bakery-options.php:519
+msgid "Enter width in px by which hamburger menu will be shown."
+msgstr ""
+
+#: includes/options/bakery-options.php:526
+msgid "Fixed Header on Scroll"
+msgstr ""
+
+#: includes/options/bakery-options.php:528
+msgid "Turn on to show fixed header when scrolling down."
+msgstr ""
+
+#: includes/options/bakery-options.php:537
+msgid "Fixed Header Offset"
+msgstr ""
+
+#: includes/options/bakery-options.php:539
+msgid "Enter distance in px by which fixed header is shown."
+msgstr ""
+
+#: includes/options/bakery-options.php:547
+msgid "Secondary Logo"
+msgstr ""
+
+#: includes/options/bakery-options.php:549
+msgid "Upload a custom secondary logo for your site."
+msgstr ""
+
+#: includes/options/bakery-options.php:559
+msgid "Header Title Background Parallax"
+msgstr ""
+
+#: includes/options/bakery-options.php:561
+msgid "Turn on to enable parallax effect on header title backgrounds."
+msgstr ""
+
+#: includes/options/bakery-options.php:571
+msgid "Blog"
+msgstr ""
+
+#: includes/options/bakery-options.php:572
+msgid "All blog related options are listed here."
+msgstr ""
+
+#: includes/options/bakery-options.php:578
+#: includes/options/bakery-options.php:661
+#: includes/options/bakery-options.php:1055
+#: includes/shortcodes/blog-posts.php:155 includes/shortcodes/gallery.php:126
+#: includes/wc-addons/shortcodes/products-with-filter.php:177
+#: includes/wc-addons/shortcodes/products.php:187
+msgid "Layout"
+msgstr ""
+
+#: includes/options/bakery-options.php:580
+msgid "Select blog layout."
+msgstr ""
+
+#: includes/options/bakery-options.php:600
+#: includes/options/bakery-options.php:703
+#: includes/options/bakery-options.php:1109
+msgid "Social Media Sharing Buttons"
+msgstr ""
+
+#: includes/options/bakery-options.php:602
+msgid "Activate this to enable social sharing buttons on blog posts."
+msgstr ""
+
+#: includes/options/bakery-options.php:611
+#: includes/options/bakery-options.php:714
+#: includes/options/bakery-options.php:1120
+msgid "Social Networks"
+msgstr ""
+
+#: includes/options/bakery-options.php:613
+msgid "Select social networks to be shown in single posts."
+msgstr ""
+
+#: includes/options/bakery-options.php:632
+#: includes/shortcodes/blog-posts.php:180
+msgid "Show Author"
+msgstr ""
+
+#: includes/options/bakery-options.php:634
+msgid "Activate this to show author for blog posts."
+msgstr ""
+
+#: includes/options/bakery-options.php:642
+#: includes/options/bakery-options.php:743
+msgid "Show Tags"
+msgstr ""
+
+#: includes/options/bakery-options.php:644
+msgid "Activate this to show tags on single posts."
+msgstr ""
+
+#: includes/options/bakery-options.php:654
+msgid "Portfolio"
+msgstr ""
+
+#: includes/options/bakery-options.php:663
+msgid ""
+"Select layout for the portfolio template. Note: The option selected here "
+"will apply also for search, category and tag pages."
+msgstr ""
+
+#: includes/options/bakery-options.php:683
+msgid "Header Background"
+msgstr ""
+
+#: includes/options/bakery-options.php:685
+msgid ""
+"Upload a custom background for header section that will be the default "
+"background for portfolio items related pages like category, tag pages etc."
+msgstr ""
+
+#: includes/options/bakery-options.php:693
+msgid "Number of portfolio items"
+msgstr ""
+
+#: includes/options/bakery-options.php:694
+msgid "Select number of portfolio items per page."
+msgstr ""
+
+#: includes/options/bakery-options.php:705
+msgid ""
+"Activate this to enable social sharing buttons on the single portfolio page."
+msgstr ""
+
+#: includes/options/bakery-options.php:716
+msgid "Select social networks to be shown in the single portfolio page."
+msgstr ""
+
+#: includes/options/bakery-options.php:735
+msgid "Slider Autoplay"
+msgstr ""
+
+#: includes/options/bakery-options.php:737
+msgid ""
+"Change to any integrer for example <b>5000</b> to play every <b>5</b> "
+"seconds a silde/image in single portfolio page. Leave blank to disable "
+"autoplay."
+msgstr ""
+
+#: includes/options/bakery-options.php:745
+msgid "Activate this to show tags on the single portfolio page."
+msgstr ""
+
+#: includes/options/bakery-options.php:753
+msgid "Portfolio Item Link"
+msgstr ""
+
+#: includes/options/bakery-options.php:755
+msgid "Select portfolio item link options."
+msgstr ""
+
+#: includes/options/bakery-options.php:757
+msgid "Show Link Icon"
+msgstr ""
+
+#: includes/options/bakery-options.php:758
+msgid "Show Link From Title"
+msgstr ""
+
+#: includes/options/bakery-options.php:768
+msgid "Show Price"
+msgstr ""
+
+#: includes/options/bakery-options.php:770
+msgid "Activate this to show the portfolio items prices."
+msgstr ""
+
+#: includes/options/bakery-options.php:779
+msgid "Currency"
+msgstr ""
+
+#: includes/options/bakery-options.php:781
+msgid "Select default currency for portfolio items prices."
+msgstr ""
+
+#: includes/options/bakery-options.php:789
+msgid "Ribbon Text #1"
+msgstr ""
+
+#: includes/options/bakery-options.php:791
+msgid "Enter text for ribbon #1."
+msgstr ""
+
+#: includes/options/bakery-options.php:792
+msgid "New"
+msgstr ""
+
+#: includes/options/bakery-options.php:799
+msgid "Ribbon Text #2"
+msgstr ""
+
+#: includes/options/bakery-options.php:801
+msgid "Enter text for ribbon #2."
+msgstr ""
+
+#: includes/options/bakery-options.php:809
+msgid "Ribbon Text #3"
+msgstr ""
+
+#: includes/options/bakery-options.php:811
+msgid "Enter text for ribbon #3"
+msgstr ""
+
+#: includes/options/bakery-options.php:819
+msgid "Ribbon Text #4"
+msgstr ""
+
+#: includes/options/bakery-options.php:821
+msgid "Enter text for ribbon #4."
+msgstr ""
+
+#: includes/options/bakery-options.php:829
+msgid "Ribbon Text #5"
+msgstr ""
+
+#: includes/options/bakery-options.php:831
+msgid "Enter text for ribbon #5."
+msgstr ""
+
+#: includes/options/bakery-options.php:839
+msgid "Ribbon Text #6"
+msgstr ""
+
+#: includes/options/bakery-options.php:841
+msgid "Enter text for ribbon #6."
+msgstr ""
+
+#: includes/options/bakery-options.php:849
+msgid "Ribbon Text #7"
+msgstr ""
+
+#: includes/options/bakery-options.php:851
+msgid "Enter text for ribbon #7."
+msgstr ""
+
+#: includes/options/bakery-options.php:859
+msgid "Ribbon Text #8"
+msgstr ""
+
+#: includes/options/bakery-options.php:861
+msgid "Enter text for ribbon #8."
+msgstr ""
+
+#: includes/options/bakery-options.php:869
+msgid "Ribbon Text #9"
+msgstr ""
+
+#: includes/options/bakery-options.php:871
+msgid "Enter text for ribbon #9."
+msgstr ""
+
+#: includes/options/bakery-options.php:879
+msgid "Ribbon Text #10"
+msgstr ""
+
+#: includes/options/bakery-options.php:881
+msgid "Enter text for ribbon #10."
+msgstr ""
+
+#: includes/options/bakery-options.php:888
+msgid "Number of Ribbons"
+msgstr ""
+
+#: includes/options/bakery-options.php:889
+msgid "Want more ribbons?"
+msgstr ""
+
+#: includes/options/bakery-options.php:898
+msgid "Portfolio Item Slug"
+msgstr ""
+
+#: includes/options/bakery-options.php:900
+msgid "Enter a custom portfolio item slug"
+msgstr ""
+
+#: includes/options/bakery-options.php:906
+msgid "Portfolio Category Slug"
+msgstr ""
+
+#: includes/options/bakery-options.php:908
+msgid "Enter a custom portfolio category slug"
+msgstr ""
+
+#: includes/options/bakery-options.php:914
+msgid "Portfolio Tag Slug"
+msgstr ""
+
+#: includes/options/bakery-options.php:916
+msgid "Enter a custom portfolio tag slug"
+msgstr ""
+
+#: includes/options/bakery-options.php:922
+#: includes/options/bakery-options.php:947
+msgid "Related Portfolio Items"
+msgstr ""
+
+#: includes/options/bakery-options.php:924
+msgid ""
+"Activate this to show related portfolio items on the single portfolio item "
+"page."
+msgstr ""
+
+#: includes/options/bakery-options.php:933
+msgid "Number of Related Portfolio Items"
+msgstr ""
+
+#: includes/options/bakery-options.php:934
+msgid ""
+"Select number of portfolio items to be shown as related portfolio items."
+msgstr ""
+
+#: includes/options/bakery-options.php:944
+msgid "Related Portfolio Items Title"
+msgstr ""
+
+#: includes/options/bakery-options.php:946
+msgid "Select default title for related portfolio items."
+msgstr ""
+
+#: includes/options/bakery-options.php:953
+msgid "Related Portfolio Items Subtitle"
+msgstr ""
+
+#: includes/options/bakery-options.php:955
+msgid "Select default subtitle for related portfolio items."
+msgstr ""
+
+#: includes/options/bakery-options.php:956
+msgid "Check out some of our similar portfolio items"
+msgstr ""
+
+#: includes/options/bakery-options.php:963
+msgid "Order Form"
+msgstr ""
+
+#: includes/options/bakery-options.php:970
+msgid "Ordering"
+msgstr ""
+
+#: includes/options/bakery-options.php:972
+msgid ""
+"Activate this to enable ordering. Note: Order link on portfolio item hover "
+"and order form inside it will be shown."
+msgstr ""
+
+#: includes/options/bakery-options.php:981
+#: includes/options/bakery-options.php:1190
+msgid "To"
+msgstr ""
+
+#: includes/options/bakery-options.php:983
+msgid "Where to send order?"
+msgstr ""
+
+#: includes/options/bakery-options.php:991
+#: includes/options/bakery-options.php:1207
+#: includes/shortcodes/contact-form.php:172
+msgid "Subject"
+msgstr ""
+
+#: includes/options/bakery-options.php:993
+msgid "Order subject?"
+msgstr ""
+
+#: includes/options/bakery-options.php:994
+msgid "New order from:"
+msgstr ""
+
+#: includes/options/bakery-options.php:1000
+#: includes/options/bakery-options.php:1232
+msgid "Message body"
+msgstr ""
+
+#: includes/options/bakery-options.php:1002
+msgid "Order email structure and content."
+msgstr ""
+
+#: includes/options/bakery-options.php:1010
+msgid "Order was sent successfully"
+msgstr ""
+
+#: includes/options/bakery-options.php:1013
+msgid "Your order has been sent successfully."
+msgstr ""
+
+#: includes/options/bakery-options.php:1019
+msgid "Order was failed to send"
+msgstr ""
+
+#: includes/options/bakery-options.php:1022
+msgid "Failed to send your order. Please try again."
+msgstr ""
+
+#: includes/options/bakery-options.php:1028
+#: includes/options/bakery-options.php:1257
+msgid "Validation errors occurred"
+msgstr ""
+
+#: includes/options/bakery-options.php:1031
+#: includes/options/bakery-options.php:1260 includes/vu-functions.php:1176
+msgid ""
+"Validation errors occurred. Please confirm the fields and submit it again."
+msgstr ""
+
+#: includes/options/bakery-options.php:1037
+#: includes/options/bakery-options.php:1265
+msgid "There are some fields that the sender must fill in"
+msgstr ""
+
+#: includes/options/bakery-options.php:1040
+#: includes/options/bakery-options.php:1268 includes/vu-functions.php:1192
+msgid "Please fill in all the required fields."
+msgstr ""
+
+#: includes/options/bakery-options.php:1048
+msgid "Shop"
+msgstr ""
+
+#: includes/options/bakery-options.php:1057
+msgid ""
+"Select layout for shop pages. The option selected here will apply also for "
+"search, category and tag pages."
+msgstr ""
+
+#: includes/options/bakery-options.php:1077
+msgid "Number of products"
+msgstr ""
+
+#: includes/options/bakery-options.php:1078
+msgid "Select number of products per page."
+msgstr ""
+
+#: includes/options/bakery-options.php:1087
+msgid "Category Header Background"
+msgstr ""
+
+#: includes/options/bakery-options.php:1089
+msgid "Select from where to get category header background."
+msgstr ""
+
+#: includes/options/bakery-options.php:1099
+msgid "Show Basket Icon"
+msgstr ""
+
+#: includes/options/bakery-options.php:1101
+msgid "Activate this to show basket icon in main menu."
+msgstr ""
+
+#: includes/options/bakery-options.php:1111
+msgid ""
+"Activate this to enable social sharing buttons on the single product page."
+msgstr ""
+
+#: includes/options/bakery-options.php:1122
+msgid "Select social networks to be shown in the single product page."
+msgstr ""
+
+#: includes/options/bakery-options.php:1141
+#: includes/options/bakery-options.php:1166
+msgid "Related Products"
+msgstr ""
+
+#: includes/options/bakery-options.php:1143
+msgid "Activate this to show related products on the single product page."
+msgstr ""
+
+#: includes/options/bakery-options.php:1152
+msgid "Number of Related Products Items"
+msgstr ""
+
+#: includes/options/bakery-options.php:1153
+msgid "Select number of products items to be shown as related products items."
+msgstr ""
+
+#: includes/options/bakery-options.php:1163
+msgid "Related Products Title"
+msgstr ""
+
+#: includes/options/bakery-options.php:1165
+msgid "Enter default title for related products."
+msgstr ""
+
+#: includes/options/bakery-options.php:1172
+msgid "Related Products Subtitle"
+msgstr ""
+
+#: includes/options/bakery-options.php:1174
+msgid "Enter default subtitle for related products."
+msgstr ""
+
+#: includes/options/bakery-options.php:1175
+msgid "Check out some of our similar products"
+msgstr ""
+
+#: includes/options/bakery-options.php:1183
+msgid "Contact"
+msgstr ""
+
+#: includes/options/bakery-options.php:1184
+msgid "Please find here all the options for cofiguring the contact form."
+msgstr ""
+
+#: includes/options/bakery-options.php:1199
+msgid "From"
+msgstr ""
+
+#: includes/options/bakery-options.php:1215
+msgid "Additional headers"
+msgstr ""
+
+#: includes/options/bakery-options.php:1224
+msgid "Use HTML content type"
+msgstr ""
+
+#: includes/options/bakery-options.php:1241
+msgid "Sender's message was sent successfully"
+msgstr ""
+
+#: includes/options/bakery-options.php:1244 includes/vu-functions.php:1187
+msgid "Your message has been sent successfully."
+msgstr ""
+
+#: includes/options/bakery-options.php:1249
+msgid "Sender's message was failed to send"
+msgstr ""
+
+#: includes/options/bakery-options.php:1252 includes/vu-functions.php:1189
+msgid "Failed to send your message. Please try again."
+msgstr ""
+
+#: includes/options/bakery-options.php:1275 includes/shortcodes/map.php:130
+msgid "Map"
+msgstr ""
+
+#: includes/options/bakery-options.php:1276
+msgid ""
+"Please find here all the map options. To convert an address into latitude & "
+"longitude please use <a href=\"http://www.latlong.net/convert-address-to-lat-"
+"long.html\">this converter.</a>"
+msgstr ""
+
+#: includes/options/bakery-options.php:1282 includes/shortcodes/map.php:152
+msgid "Map Center Latitude"
+msgstr ""
+
+#: includes/options/bakery-options.php:1284
+msgid "Enter latitude for the map center point."
+msgstr ""
+
+#: includes/options/bakery-options.php:1290 includes/shortcodes/map.php:162
+msgid "Map Center Longitude"
+msgstr ""
+
+#: includes/options/bakery-options.php:1292
+msgid "Enter longitude for the map center point."
+msgstr ""
+
+#: includes/options/bakery-options.php:1298 includes/shortcodes/map.php:172
+msgid "Default Map Zoom Level"
+msgstr ""
+
+#: includes/options/bakery-options.php:1300
+msgid ""
+"Enter default map zoom level. Note: Value should be between 1-18, 1 being "
+"the entire earth and 18 being right at street level."
+msgstr ""
+
+#: includes/options/bakery-options.php:1306 includes/shortcodes/map.php:182
+msgid "Map Height"
+msgstr ""
+
+#: includes/options/bakery-options.php:1308
+msgid "Enter map container height in px."
+msgstr ""
+
+#: includes/options/bakery-options.php:1315 includes/shortcodes/map.php:192
+msgid "Map Type"
+msgstr ""
+
+#: includes/options/bakery-options.php:1317
+msgid "Select map type."
+msgstr ""
+
+#: includes/options/bakery-options.php:1319 includes/shortcodes/map.php:196
+msgid "Roadmap"
+msgstr ""
+
+#: includes/options/bakery-options.php:1320 includes/shortcodes/map.php:197
+msgid "Satellite"
+msgstr ""
+
+#: includes/options/bakery-options.php:1321 includes/shortcodes/map.php:198
+msgid "Hybrid"
+msgstr ""
+
+#: includes/options/bakery-options.php:1322 includes/shortcodes/map.php:199
+msgid "Terrain"
+msgstr ""
+
+#: includes/options/bakery-options.php:1330 includes/shortcodes/map.php:207
+msgid "Map Style"
+msgstr ""
+
+#: includes/options/bakery-options.php:1332
+msgid "Select how you want map to look like."
+msgstr ""
+
+#: includes/options/bakery-options.php:1426 includes/shortcodes/map.php:240
+msgid "Tilt 45°"
+msgstr ""
+
+#: includes/options/bakery-options.php:1429
+#: includes/options/bakery-options.php:1439
+#: includes/options/bakery-options.php:1457
+#: includes/options/bakery-options.php:1489
+#: includes/options/bakery-options.php:1528
+#: includes/options/bakery-options.php:1567
+#: includes/options/bakery-options.php:1606
+#: includes/options/bakery-options.php:1645
+#: includes/options/bakery-options.php:1684
+#: includes/options/bakery-options.php:1723
+#: includes/options/bakery-options.php:1762
+#: includes/options/bakery-options.php:1801
+#: includes/options/bakery-options.php:1840
+#: includes/options/bakery-options.php:1879
+#: includes/options/bakery-options.php:1918
+#: includes/options/bakery-options.php:1957
+#: includes/options/bakery-options.php:1996
+#: includes/options/bakery-options.php:2035
+#: includes/options/bakery-options.php:2074
+#: includes/options/bakery-options.php:2113
+#: includes/options/bakery-options.php:2152
+#: includes/options/bakery-options.php:2191
+#: includes/options/bakery-options.php:2230
+#: includes/options/bakery-options.php:2269
+#: includes/options/bakery-options.php:2308
+#: includes/options/bakery-options.php:2347
+#: includes/options/bakery-options.php:2386
+#: includes/options/bakery-options.php:2425
+#: includes/options/bakery-options.php:2464
+#: includes/options/bakery-options.php:2503
+#: includes/options/bakery-options.php:2542
+#: includes/options/bakery-options.php:2581
+#: includes/options/bakery-options.php:2620
+#: includes/options/bakery-options.php:2676
+#: includes/options/bakery-options.php:2687
+#: includes/options/bakery-options.php:2736
+#: includes/options/bakery-options.php:2788
+#: includes/options/bakery-options.php:2808
+msgid "Yes"
+msgstr ""
+
+#: includes/options/bakery-options.php:1430
+#: includes/options/bakery-options.php:1440
+#: includes/options/bakery-options.php:1458
+#: includes/options/bakery-options.php:1490
+#: includes/options/bakery-options.php:1529
+#: includes/options/bakery-options.php:1568
+#: includes/options/bakery-options.php:1607
+#: includes/options/bakery-options.php:1646
+#: includes/options/bakery-options.php:1685
+#: includes/options/bakery-options.php:1724
+#: includes/options/bakery-options.php:1763
+#: includes/options/bakery-options.php:1802
+#: includes/options/bakery-options.php:1841
+#: includes/options/bakery-options.php:1880
+#: includes/options/bakery-options.php:1919
+#: includes/options/bakery-options.php:1958
+#: includes/options/bakery-options.php:1997
+#: includes/options/bakery-options.php:2036
+#: includes/options/bakery-options.php:2075
+#: includes/options/bakery-options.php:2114
+#: includes/options/bakery-options.php:2153
+#: includes/options/bakery-options.php:2192
+#: includes/options/bakery-options.php:2231
+#: includes/options/bakery-options.php:2270
+#: includes/options/bakery-options.php:2309
+#: includes/options/bakery-options.php:2348
+#: includes/options/bakery-options.php:2387
+#: includes/options/bakery-options.php:2426
+#: includes/options/bakery-options.php:2465
+#: includes/options/bakery-options.php:2504
+#: includes/options/bakery-options.php:2543
+#: includes/options/bakery-options.php:2582
+#: includes/options/bakery-options.php:2621
+#: includes/options/bakery-options.php:2677
+#: includes/options/bakery-options.php:2688
+#: includes/options/bakery-options.php:2737
+#: includes/options/bakery-options.php:2789
+#: includes/options/bakery-options.php:2809
+msgid "No"
+msgstr ""
+
+#: includes/options/bakery-options.php:1436 includes/shortcodes/map.php:342
+msgid "Use Image for Markers"
+msgstr ""
+
+#: includes/options/bakery-options.php:1438
+msgid "Use a custom map marker?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1447 includes/shortcodes/map.php:352
+msgid "Marker Icon Upload"
+msgstr ""
+
+#: includes/options/bakery-options.php:1449
+msgid "Upload image that will be used as map marker."
+msgstr ""
+
+#: includes/options/bakery-options.php:1454 includes/shortcodes/map.php:362
+msgid "Enable Marker Animation"
+msgstr ""
+
+#: includes/options/bakery-options.php:1456
+msgid ""
+"Enable marker animation? Note: This will cause marker(s) to do a quick "
+"bounce as they load in."
+msgstr ""
+
+#: includes/options/bakery-options.php:1464 includes/shortcodes/map.php:250
+#: includes/shortcodes/map.php:262
+msgid "Others Options"
+msgstr ""
+
+#: includes/options/bakery-options.php:1466
+msgid "Select other options you want to apply on the map."
+msgstr ""
+
+#: includes/options/bakery-options.php:1468 includes/shortcodes/map.php:253
+msgid "Draggable"
+msgstr ""
+
+#: includes/options/bakery-options.php:1469 includes/shortcodes/map.php:265
+msgid "Zoom Control"
+msgstr ""
+
+#: includes/options/bakery-options.php:1470 includes/shortcodes/map.php:275
+msgid "Disable Double Click Zoom"
+msgstr ""
+
+#: includes/options/bakery-options.php:1471 includes/shortcodes/map.php:285
+msgid "Scroll Wheel"
+msgstr ""
+
+#: includes/options/bakery-options.php:1472 includes/shortcodes/map.php:295
+msgid "Pan Control"
+msgstr ""
+
+#: includes/options/bakery-options.php:1473 includes/shortcodes/map.php:305
+msgid "Map Type Control"
+msgstr ""
+
+#: includes/options/bakery-options.php:1474 includes/shortcodes/map.php:315
+msgid "Scale Control"
+msgstr ""
+
+#: includes/options/bakery-options.php:1475 includes/shortcodes/map.php:325
+msgid "Street View Control"
+msgstr ""
+
+#: includes/options/bakery-options.php:1486
+msgid "Location #1"
+msgstr ""
+
+#: includes/options/bakery-options.php:1488
+msgid "Show location #1?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1497
+#: includes/options/bakery-options.php:1536
+#: includes/options/bakery-options.php:1575
+#: includes/options/bakery-options.php:1614
+#: includes/options/bakery-options.php:1653
+#: includes/options/bakery-options.php:1692
+#: includes/options/bakery-options.php:1731
+#: includes/options/bakery-options.php:1770
+#: includes/options/bakery-options.php:1809
+#: includes/options/bakery-options.php:1848
+#: includes/options/bakery-options.php:1887
+#: includes/options/bakery-options.php:1926
+#: includes/options/bakery-options.php:1965
+#: includes/options/bakery-options.php:2004
+#: includes/options/bakery-options.php:2043
+#: includes/options/bakery-options.php:2082
+#: includes/options/bakery-options.php:2121
+#: includes/options/bakery-options.php:2160
+#: includes/options/bakery-options.php:2199
+#: includes/options/bakery-options.php:2238
+#: includes/options/bakery-options.php:2277
+#: includes/options/bakery-options.php:2316
+#: includes/options/bakery-options.php:2355
+#: includes/options/bakery-options.php:2394
+#: includes/options/bakery-options.php:2433
+#: includes/options/bakery-options.php:2472
+#: includes/options/bakery-options.php:2511
+#: includes/options/bakery-options.php:2550
+#: includes/options/bakery-options.php:2589
+#: includes/options/bakery-options.php:2628
+msgid "Latitude"
+msgstr ""
+
+#: includes/options/bakery-options.php:1499
+msgid "Enter longitude for location #1."
+msgstr ""
+
+#: includes/options/bakery-options.php:1506
+#: includes/options/bakery-options.php:1545
+#: includes/options/bakery-options.php:1584
+#: includes/options/bakery-options.php:1623
+#: includes/options/bakery-options.php:1662
+#: includes/options/bakery-options.php:1701
+#: includes/options/bakery-options.php:1740
+#: includes/options/bakery-options.php:1779
+#: includes/options/bakery-options.php:1818
+#: includes/options/bakery-options.php:1857
+#: includes/options/bakery-options.php:1896
+#: includes/options/bakery-options.php:1935
+#: includes/options/bakery-options.php:1974
+#: includes/options/bakery-options.php:2013
+#: includes/options/bakery-options.php:2052
+#: includes/options/bakery-options.php:2091
+#: includes/options/bakery-options.php:2130
+#: includes/options/bakery-options.php:2169
+#: includes/options/bakery-options.php:2208
+#: includes/options/bakery-options.php:2247
+#: includes/options/bakery-options.php:2286
+#: includes/options/bakery-options.php:2325
+#: includes/options/bakery-options.php:2364
+#: includes/options/bakery-options.php:2403
+#: includes/options/bakery-options.php:2442
+#: includes/options/bakery-options.php:2481
+#: includes/options/bakery-options.php:2520
+#: includes/options/bakery-options.php:2559
+#: includes/options/bakery-options.php:2598
+#: includes/options/bakery-options.php:2637
+msgid "Longitude"
+msgstr ""
+
+#: includes/options/bakery-options.php:1508
+msgid "Enter latitude for location #1."
+msgstr ""
+
+#: includes/options/bakery-options.php:1515
+#: includes/options/bakery-options.php:1554
+#: includes/options/bakery-options.php:1593
+#: includes/options/bakery-options.php:1632
+#: includes/options/bakery-options.php:1671
+#: includes/options/bakery-options.php:1710
+#: includes/options/bakery-options.php:1749
+#: includes/options/bakery-options.php:1788
+#: includes/options/bakery-options.php:1827
+#: includes/options/bakery-options.php:1866
+#: includes/options/bakery-options.php:1905
+#: includes/options/bakery-options.php:1944
+#: includes/options/bakery-options.php:1983
+#: includes/options/bakery-options.php:2022
+#: includes/options/bakery-options.php:2061
+#: includes/options/bakery-options.php:2100
+#: includes/options/bakery-options.php:2139
+#: includes/options/bakery-options.php:2178
+#: includes/options/bakery-options.php:2217
+#: includes/options/bakery-options.php:2256
+#: includes/options/bakery-options.php:2295
+#: includes/options/bakery-options.php:2334
+#: includes/options/bakery-options.php:2373
+#: includes/options/bakery-options.php:2412
+#: includes/options/bakery-options.php:2451
+#: includes/options/bakery-options.php:2490
+#: includes/options/bakery-options.php:2529
+#: includes/options/bakery-options.php:2568
+#: includes/options/bakery-options.php:2607
+#: includes/options/bakery-options.php:2646
+msgid "Map Info Window Text"
+msgstr ""
+
+#: includes/options/bakery-options.php:1517
+msgid ""
+"If you would like to display any text in an info window for your #1 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1525
+msgid "Location #2"
+msgstr ""
+
+#: includes/options/bakery-options.php:1527
+msgid "Show location #2?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1538
+msgid "Enter longitude for location #2."
+msgstr ""
+
+#: includes/options/bakery-options.php:1547
+msgid "Enter latitude for location #2."
+msgstr ""
+
+#: includes/options/bakery-options.php:1556
+msgid ""
+"If you would like to display any text in an info window for your #2 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1564
+msgid "Location #3"
+msgstr ""
+
+#: includes/options/bakery-options.php:1566
+msgid "Show location #3?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1577
+msgid "Enter longitude for location #3."
+msgstr ""
+
+#: includes/options/bakery-options.php:1586
+msgid "Enter latitude for location #3."
+msgstr ""
+
+#: includes/options/bakery-options.php:1595
+msgid ""
+"If you would like to display any text in an info window for your #3 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1603
+msgid "Location #4"
+msgstr ""
+
+#: includes/options/bakery-options.php:1605
+msgid "Show location #4?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1616
+msgid "Enter longitude for location #4."
+msgstr ""
+
+#: includes/options/bakery-options.php:1625
+msgid "Enter latitude for location #4."
+msgstr ""
+
+#: includes/options/bakery-options.php:1634
+msgid ""
+"If you would like to display any text in an info window for your #4 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1642
+msgid "Location #5"
+msgstr ""
+
+#: includes/options/bakery-options.php:1644
+msgid "Show location #5?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1655
+msgid "Enter longitude for location #5."
+msgstr ""
+
+#: includes/options/bakery-options.php:1664
+msgid "Enter latitude for location #5."
+msgstr ""
+
+#: includes/options/bakery-options.php:1673
+msgid ""
+"If you would like to display any text in an info window for your #5 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1681
+msgid "Location #6"
+msgstr ""
+
+#: includes/options/bakery-options.php:1683
+msgid "Show location #6?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1694
+msgid "Enter latitude for location #6."
+msgstr ""
+
+#: includes/options/bakery-options.php:1703
+msgid "Enter longitude for location #6."
+msgstr ""
+
+#: includes/options/bakery-options.php:1712
+msgid ""
+"If you would like to display any text in an info window for your #6 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1720
+msgid "Location #7"
+msgstr ""
+
+#: includes/options/bakery-options.php:1722
+msgid "Show location #7?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1733
+msgid "Enter latitude for location #7."
+msgstr ""
+
+#: includes/options/bakery-options.php:1742
+msgid "Enter longitude for location #7."
+msgstr ""
+
+#: includes/options/bakery-options.php:1751
+msgid ""
+"If you would like to display any text in an info window for your #7 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1759
+msgid "Location #8"
+msgstr ""
+
+#: includes/options/bakery-options.php:1761
+msgid "Show location #8?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1772
+msgid "Enter latitude for location #8."
+msgstr ""
+
+#: includes/options/bakery-options.php:1781
+msgid "Enter longitude for location #8."
+msgstr ""
+
+#: includes/options/bakery-options.php:1790
+msgid ""
+"If you would like to display any text in an info window for your #8 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1798
+msgid "Location #9"
+msgstr ""
+
+#: includes/options/bakery-options.php:1800
+msgid "Show location #9?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1811
+msgid "Enter latitude for location #9."
+msgstr ""
+
+#: includes/options/bakery-options.php:1820
+msgid "Enter longitude for location #9."
+msgstr ""
+
+#: includes/options/bakery-options.php:1829
+msgid ""
+"If you would like to display any text in an info window for your #9 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1837
+msgid "Location #10"
+msgstr ""
+
+#: includes/options/bakery-options.php:1839
+msgid "Show location #10?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1850
+msgid "Enter latitude for location #10."
+msgstr ""
+
+#: includes/options/bakery-options.php:1859
+msgid "Enter longitude for location #10."
+msgstr ""
+
+#: includes/options/bakery-options.php:1868
+msgid ""
+"If you would like to display any text in an info window for your #10 "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1876
+msgid "Location #11"
+msgstr ""
+
+#: includes/options/bakery-options.php:1878
+msgid "Show location #11?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1889
+msgid "Enter latitude for location #11."
+msgstr ""
+
+#: includes/options/bakery-options.php:1898
+msgid "Enter longitude for location #11."
+msgstr ""
+
+#: includes/options/bakery-options.php:1907
+msgid ""
+"If you would like to display any text in an info window for your 11th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1915
+msgid "Location #12"
+msgstr ""
+
+#: includes/options/bakery-options.php:1917
+msgid "Show location #12?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1928
+msgid "Enter latitude for location #12."
+msgstr ""
+
+#: includes/options/bakery-options.php:1937
+msgid "Enter longitude for location #12."
+msgstr ""
+
+#: includes/options/bakery-options.php:1946
+msgid ""
+"If you would like to display any text in an info window for your 12th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1954
+msgid "Location #13"
+msgstr ""
+
+#: includes/options/bakery-options.php:1956
+msgid "Show location #13?"
+msgstr ""
+
+#: includes/options/bakery-options.php:1967
+msgid "Enter latitude for location #13."
+msgstr ""
+
+#: includes/options/bakery-options.php:1976
+msgid "Enter longitude for location #13."
+msgstr ""
+
+#: includes/options/bakery-options.php:1985
+msgid ""
+"If you would like to display any text in an info window for your 13th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:1993
+msgid "Location #14"
+msgstr ""
+
+#: includes/options/bakery-options.php:1995
+msgid "Show location #14?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2006
+msgid "Enter latitude for location #14."
+msgstr ""
+
+#: includes/options/bakery-options.php:2015
+msgid "Enter longitude for location #14."
+msgstr ""
+
+#: includes/options/bakery-options.php:2024
+msgid ""
+"If you would like to display any text in an info window for your 14th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2032
+msgid "Location #15"
+msgstr ""
+
+#: includes/options/bakery-options.php:2034
+msgid "Show location #15?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2045
+msgid "Enter latitude for location #15."
+msgstr ""
+
+#: includes/options/bakery-options.php:2054
+msgid "Enter longitude for location #15."
+msgstr ""
+
+#: includes/options/bakery-options.php:2063
+msgid ""
+"If you would like to display any text in an info window for your 15th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2071
+msgid "Location #16"
+msgstr ""
+
+#: includes/options/bakery-options.php:2073
+msgid "Show location #16?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2084
+msgid "Enter latitude for location #16."
+msgstr ""
+
+#: includes/options/bakery-options.php:2093
+msgid "Enter longitude for location #16."
+msgstr ""
+
+#: includes/options/bakery-options.php:2102
+msgid ""
+"If you would like to display any text in an info window for your 16th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2110
+msgid "Location #17"
+msgstr ""
+
+#: includes/options/bakery-options.php:2112
+msgid "Show location #17?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2123
+msgid "Enter latitude for location #17."
+msgstr ""
+
+#: includes/options/bakery-options.php:2132
+msgid "Enter longitude for location #17."
+msgstr ""
+
+#: includes/options/bakery-options.php:2141
+msgid ""
+"If you would like to display any text in an info window for your 17th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2149
+msgid "Location #18"
+msgstr ""
+
+#: includes/options/bakery-options.php:2151
+msgid "Show location #18?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2162
+msgid "Enter latitude for location #18."
+msgstr ""
+
+#: includes/options/bakery-options.php:2171
+msgid "Enter longitude for location #18."
+msgstr ""
+
+#: includes/options/bakery-options.php:2180
+msgid ""
+"If you would like to display any text in an info window for your 18th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2188
+msgid "Location #19"
+msgstr ""
+
+#: includes/options/bakery-options.php:2190
+msgid "Show location #19?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2201
+msgid "Enter latitude for location #19."
+msgstr ""
+
+#: includes/options/bakery-options.php:2210
+msgid "Enter longitude for location #19."
+msgstr ""
+
+#: includes/options/bakery-options.php:2219
+msgid ""
+"If you would like to display any text in an info window for your 19th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2227
+msgid "Location #20"
+msgstr ""
+
+#: includes/options/bakery-options.php:2229
+msgid "Show location #20?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2240
+msgid "Enter latitude for location #20."
+msgstr ""
+
+#: includes/options/bakery-options.php:2249
+msgid "Enter longitude for location #20."
+msgstr ""
+
+#: includes/options/bakery-options.php:2258
+msgid ""
+"If you would like to display any text in an info window for your 20th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2266
+msgid "Location #21"
+msgstr ""
+
+#: includes/options/bakery-options.php:2268
+msgid "Show location #21?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2279
+msgid "Enter latitude for location #21."
+msgstr ""
+
+#: includes/options/bakery-options.php:2288
+msgid "Enter longitude for location #21."
+msgstr ""
+
+#: includes/options/bakery-options.php:2297
+msgid ""
+"If you would like to display any text in an info window for your 21th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2305
+msgid "Location #22"
+msgstr ""
+
+#: includes/options/bakery-options.php:2307
+msgid "Show location #22?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2318
+msgid "Enter latitude for location #22."
+msgstr ""
+
+#: includes/options/bakery-options.php:2327
+msgid "Enter longitude for location #22."
+msgstr ""
+
+#: includes/options/bakery-options.php:2336
+msgid ""
+"If you would like to display any text in an info window for your 22th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2344
+msgid "Location #23"
+msgstr ""
+
+#: includes/options/bakery-options.php:2346
+msgid "Show location #23?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2357
+msgid "Enter latitude for location #23."
+msgstr ""
+
+#: includes/options/bakery-options.php:2366
+msgid "Enter longitude for location #23."
+msgstr ""
+
+#: includes/options/bakery-options.php:2375
+msgid ""
+"If you would like to display any text in an info window for your 23th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2383
+msgid "Location #24"
+msgstr ""
+
+#: includes/options/bakery-options.php:2385
+msgid "Show location #24?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2396
+msgid "Enter latitude for location #24."
+msgstr ""
+
+#: includes/options/bakery-options.php:2405
+msgid "Enter longitude for location #24."
+msgstr ""
+
+#: includes/options/bakery-options.php:2414
+msgid ""
+"If you would like to display any text in an info window for your 24th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2422
+msgid "Location #25"
+msgstr ""
+
+#: includes/options/bakery-options.php:2424
+msgid "Show location #25?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2435
+msgid "Enter latitude for location #25."
+msgstr ""
+
+#: includes/options/bakery-options.php:2444
+msgid "Enter longitude for location #25."
+msgstr ""
+
+#: includes/options/bakery-options.php:2453
+msgid ""
+"If you would like to display any text in an info window for your 25th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2461
+msgid "Location #26"
+msgstr ""
+
+#: includes/options/bakery-options.php:2463
+msgid "Show location #26?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2474
+msgid "Enter latitude for location #26."
+msgstr ""
+
+#: includes/options/bakery-options.php:2483
+msgid "Enter longitude for location #26."
+msgstr ""
+
+#: includes/options/bakery-options.php:2492
+msgid ""
+"If you would like to display any text in an info window for your 26th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2500
+msgid "Location #27"
+msgstr ""
+
+#: includes/options/bakery-options.php:2502
+msgid "Show location #27?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2513
+msgid "Enter latitude for location #27."
+msgstr ""
+
+#: includes/options/bakery-options.php:2522
+msgid "Enter longitude for location #27."
+msgstr ""
+
+#: includes/options/bakery-options.php:2531
+msgid ""
+"If you would like to display any text in an info window for your 27th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2539
+msgid "Location #28"
+msgstr ""
+
+#: includes/options/bakery-options.php:2541
+msgid "Show location #28?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2552
+msgid "Enter latitude for location #28."
+msgstr ""
+
+#: includes/options/bakery-options.php:2561
+msgid "Enter longitude for location #28."
+msgstr ""
+
+#: includes/options/bakery-options.php:2570
+msgid ""
+"If you would like to display any text in an info window for your 28th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2578
+msgid "Location #29"
+msgstr ""
+
+#: includes/options/bakery-options.php:2580
+msgid "Show location #29?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2591
+msgid "Enter latitude for location #29."
+msgstr ""
+
+#: includes/options/bakery-options.php:2600
+msgid "Enter longitude for location #29."
+msgstr ""
+
+#: includes/options/bakery-options.php:2609
+msgid ""
+"If you would like to display any text in an info window for your 29th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2617
+msgid "Location #30"
+msgstr ""
+
+#: includes/options/bakery-options.php:2619
+msgid "Show location #30?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2630
+msgid "Enter latitude for location #30."
+msgstr ""
+
+#: includes/options/bakery-options.php:2639
+msgid "Enter longitude for location #30."
+msgstr ""
+
+#: includes/options/bakery-options.php:2648
+msgid ""
+"If you would like to display any text in an info window for your 30th "
+"location, please enter it here."
+msgstr ""
+
+#: includes/options/bakery-options.php:2654
+msgid "Number of locations"
+msgstr ""
+
+#: includes/options/bakery-options.php:2655
+msgid "Select number of locations to be shown in the map."
+msgstr ""
+
+#: includes/options/bakery-options.php:2666
+msgid "Footer"
+msgstr ""
+
+#: includes/options/bakery-options.php:2667
+msgid ""
+"Here are all options related with both footers, top and bottom as well as "
+"copyright text area."
+msgstr ""
+
+#: includes/options/bakery-options.php:2673
+msgid "Show Footer Top"
+msgstr ""
+
+#: includes/options/bakery-options.php:2675
+msgid "Show top part of footer?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2684
+msgid "Show Footer Top Logo"
+msgstr ""
+
+#: includes/options/bakery-options.php:2686
+msgid "Show logo in the top part of the footer?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2695
+msgid "Footer Top Logo"
+msgstr ""
+
+#: includes/options/bakery-options.php:2697
+msgid "Upload logo to be shown in the top part of the footer."
+msgstr ""
+
+#: includes/options/bakery-options.php:2705
+msgid "Footer Top Background Color"
+msgstr ""
+
+#: includes/options/bakery-options.php:2707
+msgid "Select background color of the top part of the footer."
+msgstr ""
+
+#: includes/options/bakery-options.php:2723
+msgid "Footer Top Text Color"
+msgstr ""
+
+#: includes/options/bakery-options.php:2725
+msgid "Select text color for the top part of the footer."
+msgstr ""
+
+#: includes/options/bakery-options.php:2733
+msgid "Show Footer Bottom"
+msgstr ""
+
+#: includes/options/bakery-options.php:2735
+msgid "Would you like to show the bottom part of the footer?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2744
+msgid "Footer Bottom Layout"
+msgstr ""
+
+#: includes/options/bakery-options.php:2746
+msgid "Footer layout?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2769
+msgid "Select color or upload background image for the footer bottom."
+msgstr ""
+
+#: includes/options/bakery-options.php:2785
+msgid "Show Copyright Text"
+msgstr ""
+
+#: includes/options/bakery-options.php:2787
+msgid "Show copyright area?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2796
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/options/bakery-options.php:2798
+msgid "Copyright area content?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2800
+msgid ""
+"All rights reserved. Powered by <a href=\"http://themeforest.net/user/"
+"milingona_/portfolio\" target=\"_blank\">Milingona</a>"
+msgstr ""
+
+#: includes/options/bakery-options.php:2805
+msgid "Show Back to Top"
+msgstr ""
+
+#: includes/options/bakery-options.php:2807
+msgid "Show back to top button on all pages?"
+msgstr ""
+
+#: includes/options/bakery-options.php:2817
+msgid "3rd Party"
+msgstr ""
+
+#: includes/options/bakery-options.php:2824
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: includes/options/bakery-options.php:2826
+msgid ""
+"1. Go to \"https://dev.twitter.com/apps\", login with our twitter account "
+"and click \"Create a new application\".<br>2. Fill out the required fields, "
+"accept the rules of the road, and then click on the \"Create your Twitter "
+"application\"<br>3. Once the app has been created, click the \"Create my "
+"access token\" button.<br>4. You are done! You will need the following data "
+"later on"
+msgstr ""
+
+#: includes/options/bakery-options.php:2832
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: includes/options/bakery-options.php:2840
+msgid "Twitter Access Token"
+msgstr ""
+
+#: includes/options/bakery-options.php:2848
+msgid "Twitter Access Token Secret"
+msgstr ""
+
+#: includes/options/bakery-options.php:2856
+msgid "Google Map API Key"
+msgstr ""
+
+#: includes/options/bakery-options.php:2864
+msgid "Google Analytics Tracking Code"
+msgstr ""
+
+#: includes/options/bakery-options.php:2872
+msgid "MailChimp API"
+msgstr ""
+
+#: includes/options/bakery-options.php:2880
+msgid "MailChimp List ID"
+msgstr ""
+
+#: includes/options/bakery-options.php:2890
+msgid "Custom Code"
+msgstr ""
+
+#: includes/options/bakery-options.php:2897
+msgid "CSS Code"
+msgstr ""
+
+#: includes/options/bakery-options.php:2898
+msgid "Paste your CSS code here"
+msgstr ""
+
+#: includes/options/bakery-options.php:2909
+msgid "JS Code"
+msgstr ""
+
+#: includes/options/bakery-options.php:2910
+msgid "Paste your JS code here"
+msgstr ""
+
+#: includes/options/bakery-options.php:2926
+#: includes/options/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: includes/options/bakery-options.php:2927
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: includes/options/bakery-options.php:2947
+msgid "Theme Information"
+msgstr ""
+
+#: includes/options/bakery-options.php:2964
+msgid "Install Demo Content"
+msgstr ""
+
+#: includes/options/bakery-options.php:3002
+#: includes/shortcodes/blog-posts.php:123 includes/shortcodes/client.php:62
+#: includes/shortcodes/contact-form.php:123 includes/shortcodes/count-up.php:52
+#: includes/shortcodes/countdown.php:52 includes/shortcodes/gallery-item.php:97
+#: includes/shortcodes/gallery.php:110 includes/shortcodes/image-slider.php:81
+#: includes/shortcodes/map-and-contact-form.php:113
+#: includes/shortcodes/map.php:136 includes/shortcodes/menu-item.php:144
+#: includes/shortcodes/milestone.php:57
+#: includes/shortcodes/service-item.php:112
+#: includes/shortcodes/title-section.php:57
+#: includes/wc-addons/shortcodes/featured-products.php:147
+#: includes/wc-addons/shortcodes/products-with-filter.php:152
+#: includes/wc-addons/shortcodes/products.php:146
+msgid "Bakery"
+msgstr ""
+
+#: includes/options/bakery-options.php:3003
+msgid "Bakery Options"
+msgstr ""
+
+#: includes/options/bakery-options.php:3011
+msgid ""
+"Copyright &copy; 2016 <a href=\"http://themeforest.net/user/milingona_/"
+"portfolio\" target=\"_blank\">Milingona</a>. All Rights Reserved."
+msgstr ""
+
+#: includes/options/core/enqueue.php:453
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: includes/options/core/enqueue.php:461
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: includes/options/core/enqueue.php:469
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: includes/options/core/enqueue.php:477
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/options/core/enqueue.php:484
+msgid "Please Wait"
+msgstr ""
+
+#: includes/options/core/enqueue.php:495
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: includes/options/core/enqueue.php:496
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: includes/options/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: includes/options/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: includes/options/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: includes/options/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: includes/options/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/options/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: includes/options/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: includes/options/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: includes/options/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: includes/options/inc/class.redux_admin_notices.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: includes/options/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: includes/options/inc/class.redux_cdn.php:76
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the <a href=\"%s"
+"\" target=\"_blank\">Redux Vendor Support</a> plugin/extension to bypass the "
+"our CDN and avoid this warning"
+msgstr ""
+
+#: includes/options/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: includes/options/inc/class.redux_cdn.php:81
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: includes/options/inc/class.redux_cdn.php:113
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: includes/options/inc/class.redux_filesystem.php:31
+#: includes/options/inc/class.redux_filesystem.php:60
+#: includes/options/inc/class.redux_filesystem.php:271
+msgid "File Permission Issues"
+msgstr ""
+
+#: includes/options/inc/class.redux_filesystem.php:31
+#, php-format
+msgid ""
+"We were unable to modify required files. Please check your permissions, or "
+"modify your wp-config.php file to contain your FTP login credentials as <a "
+"href=\"%s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: includes/options/inc/class.redux_filesystem.php:60
+#: includes/options/inc/class.redux_filesystem.php:271
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> "
+"has the proper read-write permissions, or modify your wp-config.php file to "
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: includes/options/inc/class.redux_helpers.php:612
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:91
+msgid "Import Options"
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:95
+msgid "Import from File"
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:98
+msgid "Import from URL"
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid "Import"
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:120
+msgid "Export Options"
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:132
+msgid "Copy Data"
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:133
+msgid "Download Data File"
+msgstr ""
+
+#: includes/options/inc/extensions/import_export/import_export/field_import_export.php:134
+msgid "Copy Export URL"
+msgstr ""
+
+#: includes/options/inc/extensions/options_object/extension_options_object.php:82
+#: includes/options/inc/extensions/options_object/options_object/field_options_object.php:104
+msgid "Options Object"
+msgstr ""
+
+#: includes/options/inc/extensions/options_object/options_object/field_options_object.php:107
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/extension_wbc_importer.php:247
+msgid "Demo Already Imported"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/extension_wbc_importer.php:274
+#: includes/options/inc/extensions/wbc_importer/extension_wbc_importer.php:276
+msgid "Demo Importer"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/extension_wbc_importer.php:281
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/parsers.php:42
+#: includes/options/inc/extensions/wbc_importer/inc/importer/parsers.php:72
+#: includes/options/inc/extensions/wbc_importer/inc/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/parsers.php:84
+#: includes/options/inc/extensions/wbc_importer/inc/importer/parsers.php:89
+#: includes/options/inc/extensions/wbc_importer/inc/importer/parsers.php:279
+#: includes/options/inc/extensions/wbc_importer/inc/importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/radium-importer.php:256
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/radium-importer.php:331
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/radium-importer.php:405
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/radium-importer.php:427
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/radium-importer.php:450
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/radium-importer.php:499
+#: includes/options/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:116
+msgid "Imported"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/radium-importer.php:502
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/radium-importer.php:509
+msgid "No Title"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:134
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:143
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:194
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:198
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:511
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1032
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1039
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1054
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1055
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:93
+#: includes/options/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+msgid "Import Demo"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:97
+msgid "Demo Imported"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+#: includes/options/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:117
+msgid "Please Wait..."
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:118
+msgid "Re-Import"
+msgstr ""
+
+#: includes/options/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:127
+msgid "No Demo Data Provided"
+msgstr ""
+
+#: includes/options/inc/fields/background/field_background.php:124
+#: includes/options/inc/fields/color/field_color.php:73
+#: includes/options/inc/fields/color_gradient/field_color_gradient.php:79
+#: includes/options/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: includes/options/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/options/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: includes/options/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: includes/options/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: includes/options/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/options/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: includes/options/inc/fields/background/field_background.php:277
+#: includes/options/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: includes/options/inc/fields/background/field_background.php:321
+#: includes/options/inc/fields/media/field_media.php:205
+#: includes/options/inc/fields/multi_text/field_multi_text.php:69
+#: includes/options/inc/fields/multi_text/field_multi_text.php:73
+#: includes/options/inc/fields/multi_text/field_multi_text.php:76
+#: includes/options/inc/fields/slides/field_slides.php:133
+#: includes/options/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: includes/options/inc/fields/border/field_border.php:125
+#: includes/options/inc/fields/spacing/field_spacing.php:191
+#: includes/wc-addons/shortcodes/products-with-filter.php:35
+#: includes/wc-addons/shortcodes/products-with-filter.php:39
+msgid "All"
+msgstr ""
+
+#: includes/options/inc/fields/border/field_border.php:138
+#: includes/options/inc/fields/spacing/field_spacing.php:215
+#: includes/vc-addons/vc-modify.php:130
+msgid "Top"
+msgstr ""
+
+#: includes/options/inc/fields/border/field_border.php:145
+#: includes/options/inc/fields/spacing/field_spacing.php:222
+#: includes/shortcodes/title-section.php:94
+msgid "Right"
+msgstr ""
+
+#: includes/options/inc/fields/border/field_border.php:152
+#: includes/options/inc/fields/spacing/field_spacing.php:229
+#: includes/vc-addons/vc-modify.php:132
+msgid "Bottom"
+msgstr ""
+
+#: includes/options/inc/fields/border/field_border.php:159
+#: includes/options/inc/fields/spacing/field_spacing.php:236
+#: includes/shortcodes/title-section.php:92
+msgid "Left"
+msgstr ""
+
+#: includes/options/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: includes/options/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: includes/options/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: includes/options/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: includes/options/inc/fields/dimensions/field_dimensions.php:178
+#: includes/options/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: includes/options/inc/fields/dimensions/field_dimensions.php:189
+#: includes/options/inc/fields/dimensions/field_dimensions.php:190
+#: includes/options/inc/fields/spacing/field_spacing.php:245
+#: includes/options/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: includes/options/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: includes/options/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: includes/options/inc/fields/link_color/field_link_color.php:88
+msgid "Regular"
+msgstr ""
+
+#: includes/options/inc/fields/link_color/field_link_color.php:92
+msgid "Hover"
+msgstr ""
+
+#: includes/options/inc/fields/link_color/field_link_color.php:96
+msgid "Visited"
+msgstr ""
+
+#: includes/options/inc/fields/link_color/field_link_color.php:100
+msgid "Active"
+msgstr ""
+
+#: includes/options/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: includes/options/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: includes/options/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: includes/options/inc/fields/select/field_select.php:83
+#: includes/options/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: includes/options/inc/fields/select/field_select.php:134
+#: includes/options/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/options/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: includes/options/inc/fields/slides/field_slides.php:73
+#: includes/options/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/options/inc/fields/slides/field_slides.php:145
+#: includes/options/inc/fields/slides/field_slides.php:200
+#: includes/shortcodes/contact-form.php:127
+#: includes/shortcodes/gallery-item.php:109
+#: includes/shortcodes/map-and-contact-form.php:117
+#: includes/shortcodes/menu-item.php:156 includes/shortcodes/milestone.php:61
+#: includes/shortcodes/service-item.php:163
+#: includes/shortcodes/title-section.php:61
+msgid "Title"
+msgstr ""
+
+#: includes/options/inc/fields/slides/field_slides.php:149
+#: includes/options/inc/fields/slides/field_slides.php:204
+#: includes/shortcodes/menu-item.php:165
+#: includes/shortcodes/service-item.php:172
+msgid "Description"
+msgstr ""
+
+#: includes/options/inc/fields/slides/field_slides.php:153
+#: includes/options/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: includes/options/inc/fields/slides/field_slides.php:167
+#: includes/options/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: includes/options/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:258
+#: includes/options/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:273
+#: includes/options/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:281
+#: includes/shortcodes/gallery.php:140 includes/shortcodes/menu-item.php:173
+#: includes/shortcodes/title-section.php:78
+msgid "Style"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:342
+#: includes/options/inc/fields/typography/field_typography.php:343
+#: includes/options/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:365
+#: includes/options/inc/fields/typography/field_typography.php:366
+#: includes/options/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:388
+#: includes/options/inc/fields/typography/field_typography.php:389
+#: includes/options/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:408
+#: includes/options/inc/fields/typography/field_typography.php:409
+#: includes/options/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:432
+#: includes/options/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:441
+#: includes/options/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:450
+#: includes/options/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:459
+#: includes/options/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: includes/options/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
+"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
+"document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/embedded.php:24
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
+"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
+"submission because of Redux."
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: includes/options/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: includes/options/inc/tracking.php:129
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: includes/options/inc/tracking.php:130
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatibility."
+msgstr ""
+
+#: includes/options/inc/tracking.php:135
+msgid "Allow tracking"
+msgstr ""
+
+#: includes/options/inc/tracking.php:140
+msgid "Do not allow tracking"
+msgstr ""
+
+#: includes/options/inc/tracking.php:151
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: includes/options/inc/tracking.php:152
+msgid "Getting Started"
+msgstr ""
+
+#: includes/options/inc/tracking.php:152
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: includes/options/inc/tracking.php:152
+msgid "our documentation"
+msgstr ""
+
+#: includes/options/inc/tracking.php:153
+msgid "Redux Generator"
+msgstr ""
+
+#: includes/options/inc/tracking.php:153
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: includes/options/inc/tracking.php:154
+#: includes/options/inc/welcome/welcome.php:227
+msgid "Redux Extensions"
+msgstr ""
+
+#: includes/options/inc/tracking.php:154
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: includes/options/inc/tracking.php:154
+msgid "extensions directory"
+msgstr ""
+
+#: includes/options/inc/tracking.php:155
+msgid "Like Redux?"
+msgstr ""
+
+#: includes/options/inc/tracking.php:155
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: includes/options/inc/tracking.php:155
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: includes/options/inc/tracking.php:155
+msgid "donation"
+msgstr ""
+
+#: includes/options/inc/tracking.php:156
+msgid "Newsletter"
+msgstr ""
+
+#: includes/options/inc/tracking.php:156
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: includes/options/inc/tracking.php:157
+msgid "Email address"
+msgstr ""
+
+#: includes/options/inc/tracking.php:157 includes/shortcodes/others.php:157
+msgid "Subscribe"
+msgstr ""
+
+#: includes/options/inc/tracking.php:166
+msgid "Close"
+msgstr ""
+
+#: includes/options/inc/validation/color/validation_color.php:15
+#: includes/options/inc/validation/color_rgba/validation_color_rgba.php:14
+#: includes/options/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: includes/options/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: includes/options/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: includes/options/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: includes/options/inc/validation/email/validation_email.php:16
+#: includes/options/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: includes/options/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: includes/options/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: includes/options/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: includes/options/inc/validation/numeric/validation_numeric.php:16
+#: includes/options/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: includes/options/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: includes/options/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: includes/options/inc/welcome/views/about.php:2
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: includes/options/inc/welcome/views/about.php:5
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is a huge "
+"step forward in Redux Development. Look at all that's new."
+msgstr ""
+
+#: includes/options/inc/welcome/views/about.php:8
+#: includes/options/inc/welcome/views/changelog.php:10
+#: includes/options/inc/welcome/views/credits.php:10
+#: includes/options/inc/welcome/views/extensions.php:81
+#: includes/options/inc/welcome/views/status_report.php:34
+#: includes/options/inc/welcome/views/support.php:8
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: includes/options/inc/welcome/views/about.php:15
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: includes/options/inc/welcome/views/about.php:17
+msgid ""
+"Redux Framework is the core of many products on the web. It is an option "
+"framework which developers use to\n"
+"            enhance their products."
+msgstr ""
+
+#: includes/options/inc/welcome/views/about.php:22
+msgid "Learn More"
+msgstr ""
+
+#: includes/options/inc/welcome/views/about.php:28
+msgid "New in this Release"
+msgstr ""
+
+#: includes/options/inc/welcome/views/changelog.php:2
+msgid "Redux Framework - Changelog"
+msgstr ""
+
+#: includes/options/inc/welcome/views/changelog.php:5
+#: includes/options/inc/welcome/views/status_report.php:30
+msgid ""
+"Our core mantra at Redux is backwards compatibility. With hundreds of "
+"thousands of instances worldwide, you can be assured that we will take care "
+"of you and your clients."
+msgstr ""
+
+#: includes/options/inc/welcome/views/credits.php:2
+msgid "Redux Framework - A Community Effort"
+msgstr ""
+
+#: includes/options/inc/welcome/views/credits.php:5
+msgid ""
+"We recognize we are nothing without our community. We would like to thank "
+"all of those who help Redux to be what it is. Thank you for your involvement."
+msgstr ""
+
+#: includes/options/inc/welcome/views/credits.php:18
+#, php-format
+msgid ""
+"Redux is created by a community of developers world wide. Want to have your "
+"name listed too? <a href=\"%d\" target=\"_blank\">Contribute to Redux</a>."
+msgstr ""
+
+#: includes/options/inc/welcome/views/extensions.php:73
+msgid "Redux Framework - Extensions"
+msgstr ""
+
+#: includes/options/inc/welcome/views/extensions.php:76
+msgid ""
+"Supercharge your Redux experience. Our extensions provide you with features "
+"that will take your products to the next level."
+msgstr ""
+
+#: includes/options/inc/welcome/views/extensions.php:89
+msgid ""
+"While some are built specificially for developers, extensions such as Custom "
+"Fonts are sure to make any user happy."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:26
+msgid "Redux Framework - System Status"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:43
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:48
+msgid "Get System Report"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:53
+msgid "Understanding the Status Report"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:62
+msgid "Copied!"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:63
+msgid "Copy for Support"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:73
+msgid "WordPress Environment"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:80
+msgid "Home URL"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:83
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:89
+msgid "Site URL"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:92
+msgid "The root URL of your site."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:100
+msgid "Redux Version"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:103
+msgid "The version of Redux Framework installed on your site."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:111
+msgid "Redux Data Directory Writable"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:114
+msgid ""
+"Redux and its extensions write data to the <code>uploads</code> directory. "
+"This directory must be writable."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:120
+#, php-format
+msgid "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:126
+msgid "WP Content URL"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:129
+msgid "The location of Wordpress's content URL."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:137
+msgid "WP Version"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:140
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:148
+msgid "WP Multisite"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:151
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:162
+msgid "Permalink Structure"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:165
+msgid ""
+"The current permalink structure as defined in Wordpress Settings->Permalinks."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:174
+msgid "Front Page Display"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:176
+msgid "The current Reading mode of Wordpress."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:185
+msgid "Front Page"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:188
+msgid "The currently selected page which acts as the site's Front Page."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:196
+msgid "Posts Page"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:199
+msgid "The currently selected page in where blog posts are displayed."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:210
+msgid "WP Memory Limit"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:213
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:220
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:229
+msgid "Database Table Prefix"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:232
+msgid "The prefix structure of the current Wordpress database."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:240
+msgid "WP Debug Mode"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:243
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:255
+msgid "Language"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:258
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:270
+msgid "Browser"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:277
+msgid "Browser Info"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:280
+msgid "Information about web browser current in use."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:297
+msgid "Server Environment"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:304
+msgid "Server Info"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:307
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:315
+msgid "Localhost Environment"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:318
+msgid "Is the server running in a localhost environment."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:332
+msgid "PHP Version"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:335
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:343
+msgid "ABSPATH"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:346
+msgid "The ABSPATH variable on the server."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:355
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:356
+#: includes/options/inc/welcome/views/status_report.php:361
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:360
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:365
+msgid "PHP Time Limit"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:366
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:370
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:371
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:375
+msgid "PHP Display Errors"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:376
+msgid "Determines if PHP will display errors within the browser."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:387
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:388
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.  "
+"If enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:399
+msgid "MySQL Version"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:400
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:404
+msgid "Max Upload Size"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:405
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:410
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:412
+msgid "The default timezone for your server."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:416
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:428
+msgid "Used when communicating with remote services with PHP."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:434
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to "
+"communicate with other servers. Please contact your hosting provider."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:473
+msgid "Remote Post"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:474
+msgid "Used to send data to remote servers."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:479
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact "
+"your hosting provider."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:482
+#: includes/options/inc/welcome/views/status_report.php:497
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:489
+msgid "Remote Get"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:490
+msgid "Used to grab information from remote servers for updates updates."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:495
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote "
+"servers. Contact your hosting provider."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:531
+msgid "Active Plugins"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:546
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:553
+#, php-format
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:572
+msgid "Redux Instance: "
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:579
+msgid "The opt_name argument for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:587
+msgid "The global_variable argument for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:595
+msgid "Indicates if developer mode is enabled for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:600
+msgid "Indicates if ajax based saving is enabled for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:605
+msgid ""
+"The page slug denotes the string used for the options panel page for this "
+"instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:610
+msgid ""
+"The page permissions variable sets the permission level required to access "
+"the options panel for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:615
+msgid ""
+"This variable set whether or not the menu is displayed as an admin menu item "
+"for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:620
+msgid ""
+"The page parent variable sets where the options menu will be placed on the "
+"WordPress admin sidebar for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:626
+msgid "Indicates if the compiler flag is enabled for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:631
+msgid ""
+"Indicates if output flag for globally shutting off all CSS output is enabled "
+"for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:636
+msgid ""
+"The output_tag variable sets whether or not dynamic CSS will be generated "
+"for the customizer and Google fonts for this instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:645
+msgid ""
+"The specified template path containing custom template files for this "
+"instance of Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:650
+msgid "List of template files overriding the default Redux template files."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:676
+msgid "Indicates the installed Redux extensions and their version numbers."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:705
+msgid "Theme"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:710
+#: includes/shortcodes/contact-form.php:138
+msgid "Name"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:711
+msgid "The name of the current active theme."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:716
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:722
+msgid "is available"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:728
+msgid "Author URL"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:729
+msgid "The theme developers URL."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:733
+msgid "Child Theme"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:734
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:737
+#, php-format
+msgid ""
+"If you're modifying Redux Framework or a parent theme you didn't build "
+"personally, we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:745
+msgid "Parent Theme Name"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:747
+msgid "The name of the parent theme."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:752
+msgid "Parent Theme Version"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:754
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:759
+msgid "Parent Theme Author URL"
+msgstr ""
+
+#: includes/options/inc/welcome/views/status_report.php:761
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:2
+msgid "Redux Framework - Support"
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:4
+msgid ""
+"We are an open source project used by developers to make powerful control "
+"panels."
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:19
+#: includes/options/inc/welcome/views/support.php:40
+msgid "Generate a Support URL"
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:20
+msgid "Select Support Type"
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:21
+#: includes/options/inc/welcome/views/support.php:87
+msgid "How to Get Support"
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:27
+msgid "Submit a Support Request"
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:31
+msgid "To get started, we will need to generate a support hash."
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:35
+#, php-format
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Status tab</a>."
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:52
+msgid "Select Your Support Type"
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:56
+msgid "What type of user are you?"
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:63
+msgid "User"
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:65
+msgid "I am a user, using a pre-built product."
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:70
+msgid "Developer"
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:72
+msgid "I am a developer, building a product using Redux."
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:92
+msgid ""
+"Please proceed to the Redux Framework issue tracker and supply us with your "
+"support URL below. Please also provide any information that will help us to "
+"reproduce your issue."
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:101
+msgid ""
+"Listed below are the Wordpress plugins and/or theme installed on your site "
+"that utilize Redux Framework. We do not directly support products created "
+"with our framework.  It is the responsibility of the plugin or theme "
+"developer to support their work. You will need to contact the author(s) of "
+"the products listed below with your support questions."
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:105
+msgid ""
+"Please be sure to include for your developer - via cut and paste - the "
+"Support URL in the box below."
+msgstr ""
+
+#: includes/options/inc/welcome/views/support.php:134
+#, php-format
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:106
+msgid ""
+"If you like <strong>Redux</strong> please leave us a <a href=\"https://"
+"wordpress.org/support/view/plugin-reviews/redux-framework?filter=5#postform"
+"\" target=\"_blank\" class=\"redux-rating-link\" data-rated="
+"\"Thanks :)\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. A huge thank "
+"you from Redux in advance!"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:181
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:203
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:203
+#: includes/options/redux-framework.php:220
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:211
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:219
+msgid "Get Support"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:236
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:244
+msgid "Redux Framework Status"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:344
+msgid "What's New"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:347
+msgid "Extensions"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:350
+msgid "Changelog"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:353
+msgid "Credits"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:356
+msgid "Support"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:359
+msgid "Status"
+msgstr ""
+
+#: includes/options/inc/welcome/welcome.php:519
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/options/redux-framework.php:220
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: includes/options/redux-framework.php:224
+#: includes/options/redux-framework.php:228
+msgid "Options"
+msgstr ""
+
+#: includes/options/redux-framework.php:1751
+msgid "Enable"
+msgstr ""
+
+#: includes/options/redux-framework.php:1756
+msgid "Disable"
+msgstr ""
+
+#: includes/options/redux-framework.php:1762
+msgid "moving the mouse over"
+msgstr ""
+
+#: includes/options/redux-framework.php:1764
+msgid "clicking"
+msgstr ""
+
+#: includes/options/redux-framework.php:1768
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: includes/options/redux-framework.php:1773
+msgid "Hints"
+msgstr ""
+
+#: includes/options/redux-framework.php:2778
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: includes/options/redux-framework.php:2787
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: includes/options/redux-framework.php:2867
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: includes/options/redux-framework.php:3962
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: includes/options/redux-framework.php:3977
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: includes/options/templates/panel/footer.tpl.php:57
+#: includes/options/templates/panel/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: includes/options/templates/panel/footer.tpl.php:61
+#: includes/options/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr ""
+
+#: includes/options/templates/panel/footer.tpl.php:62
+#: includes/options/templates/panel/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr ""
+
+#: includes/options/templates/panel/footer.tpl.php:67
+#: includes/options/templates/panel/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr ""
+
+#: includes/options/templates/panel/header.tpl.php:11
+#: includes/options/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: includes/options/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: includes/options/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: includes/options/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: includes/options/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: includes/options/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: includes/options/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: includes/options/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:6
+#: includes/post-templates/entry-gallery.php:6
+#: includes/post-templates/entry-image.php:6
+#: includes/post-templates/entry-video.php:6
+#: includes/post-templates/entry.php:6 includes/shortcodes/blog-posts.php:81
+#: includes/shortcodes/others.php:134
+msgid "by:"
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:8
+#: includes/post-templates/entry-gallery.php:8
+#: includes/post-templates/entry-image.php:8
+#: includes/post-templates/entry-video.php:8
+#: includes/post-templates/entry.php:8 includes/shortcodes/blog-posts.php:83
+msgid "on"
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:8
+#: includes/post-templates/entry-gallery.php:8
+#: includes/post-templates/entry-image.php:8
+#: includes/post-templates/entry-video.php:8
+#: includes/post-templates/entry.php:8 includes/shortcodes/blog-posts.php:83
+msgid "One Comment "
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:23
+msgid "Your browser does not support the audio element."
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:46
+#: includes/post-templates/entry-gallery.php:40
+#: includes/post-templates/entry-image.php:41
+#: includes/post-templates/entry-video.php:54
+#: includes/post-templates/entry.php:41
+msgid "Tags: "
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:52
+#: includes/post-templates/entry-gallery.php:46
+#: includes/post-templates/entry-image.php:47
+#: includes/post-templates/entry-video.php:60
+#: includes/post-templates/entry.php:47
+msgid "Read more"
+msgstr ""
+
+#: includes/post-templates/entry-video.php:30
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:117
+msgid "Blog Posts"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:118
+msgid "Show the blog posts"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:127
+msgid "Blog Post Query"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:139
+msgid "Create WordPress loop, to show posts from your site."
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:143 includes/shortcodes/gallery.php:115
+#: includes/shortcodes/service-item.php:117 includes/vc-addons/vc-modify.php:49
+#: includes/wc-addons/shortcodes/products.php:166
+msgid "Type"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:147 includes/shortcodes/gallery.php:118
+msgid "Standard"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:148 includes/shortcodes/gallery.php:119
+msgid "Carousel"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:151
+msgid "Select type."
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:159 includes/shortcodes/gallery.php:130
+#: includes/wc-addons/shortcodes/products-with-filter.php:181
+#: includes/wc-addons/shortcodes/products.php:191
+msgid "1 Column"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:160 includes/shortcodes/gallery.php:131
+#: includes/wc-addons/shortcodes/products-with-filter.php:182
+#: includes/wc-addons/shortcodes/products.php:192
+msgid "2 Columns"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:161 includes/shortcodes/gallery.php:132
+#: includes/wc-addons/shortcodes/products-with-filter.php:183
+#: includes/wc-addons/shortcodes/products.php:193
+msgid "3 Columns"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:162 includes/shortcodes/gallery.php:133
+#: includes/wc-addons/shortcodes/products-with-filter.php:184
+#: includes/wc-addons/shortcodes/products.php:194
+msgid "4 Columns"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:166
+msgid "Select layout."
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:170
+#: includes/shortcodes/image-slider.php:109
+msgid "Show navigation"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:184
+msgid "Whether to show the post author"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:188 includes/shortcodes/client.php:82
+#: includes/shortcodes/contact-form.php:186 includes/shortcodes/count-up.php:74
+#: includes/shortcodes/countdown.php:74
+#: includes/shortcodes/gallery-item.php:156 includes/shortcodes/gallery.php:197
+#: includes/shortcodes/image-slider.php:151
+#: includes/shortcodes/map-and-contact-form.php:184
+#: includes/shortcodes/map.php:332 includes/shortcodes/menu-item.php:222
+#: includes/shortcodes/milestone.php:94
+#: includes/shortcodes/service-item.php:207
+#: includes/shortcodes/title-section.php:101
+#: includes/vc-addons/vc-modify.php:113
+#: includes/wc-addons/shortcodes/featured-products.php:194
+#: includes/wc-addons/shortcodes/products-with-filter.php:206
+#: includes/wc-addons/shortcodes/products.php:260
+msgid "Extra class name"
+msgstr ""
+
+#: includes/shortcodes/blog-posts.php:192 includes/shortcodes/client.php:86
+#: includes/shortcodes/contact-form.php:190 includes/shortcodes/count-up.php:78
+#: includes/shortcodes/countdown.php:78
+#: includes/shortcodes/gallery-item.php:160 includes/shortcodes/gallery.php:201
+#: includes/shortcodes/image-slider.php:155
+#: includes/shortcodes/map-and-contact-form.php:188
+#: includes/shortcodes/map.php:337 includes/shortcodes/menu-item.php:226
+#: includes/shortcodes/milestone.php:98
+#: includes/shortcodes/service-item.php:211
+#: includes/shortcodes/title-section.php:105
+#: includes/vc-addons/vc-modify.php:118
+#: includes/wc-addons/shortcodes/featured-products.php:198
+#: includes/wc-addons/shortcodes/products-with-filter.php:210
+#: includes/wc-addons/shortcodes/products.php:264
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/shortcodes/client.php:55 includes/shortcodes/client.php:60
+msgid "Client"
+msgstr ""
+
+#: includes/shortcodes/client.php:56
+msgid "Add a client/partner"
+msgstr ""
+
+#: includes/shortcodes/client.php:66 includes/shortcodes/gallery-item.php:101
+#: includes/shortcodes/menu-item.php:148
+#: includes/shortcodes/service-item.php:141 includes/vc-addons/vc-modify.php:72
+msgid "Image"
+msgstr ""
+
+#: includes/shortcodes/client.php:70 includes/shortcodes/gallery-item.php:105
+#: includes/shortcodes/menu-item.php:152
+#: includes/shortcodes/service-item.php:146 includes/vc-addons/vc-modify.php:78
+msgid "Select image from media library."
+msgstr ""
+
+#: includes/shortcodes/client.php:74 includes/shortcodes/gallery-item.php:147
+#: includes/shortcodes/menu-item.php:214
+#: includes/shortcodes/service-item.php:198
+msgid "URL (Link)"
+msgstr ""
+
+#: includes/shortcodes/client.php:78
+msgid "Add the button link, link target and link title."
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:117
+msgid "Contact Form"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:118
+msgid "Add the contact form"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:132
+msgid "Enter contact form title."
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:136
+msgid "Name Text"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:140
+msgid "Enter name text."
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:144
+msgid "Email Text"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:146
+msgid "Email"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:148
+msgid "Enter email text."
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:152
+#: includes/shortcodes/map-and-contact-form.php:150
+msgid "Show Phone"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:154 includes/shortcodes/gallery.php:155
+#: includes/shortcodes/map-and-contact-form.php:152
+#: includes/shortcodes/map.php:144 includes/shortcodes/map.php:243
+#: includes/shortcodes/map.php:345 includes/shortcodes/map.php:365
+#: includes/shortcodes/service-item.php:182 includes/vc-addons/vc-modify.php:65
+#: includes/vc-addons/vc-modify.php:96
+#: includes/wc-addons/shortcodes/products.php:219
+#: includes/wc-addons/shortcodes/products.php:236
+msgid "Yes Please"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:157
+#: includes/shortcodes/map-and-contact-form.php:155
+msgid "Check to show phone field."
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:161
+msgid "Phone Text"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:164
+msgid "Phone"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:166
+msgid "Enter phone text."
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:170
+msgid "Subject Text"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:174
+#: includes/shortcodes/contact-form.php:182
+msgid "Enter subject text."
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:178
+msgid "Submit Text"
+msgstr ""
+
+#: includes/shortcodes/contact-form.php:180
+msgid "Submit Message"
+msgstr ""
+
+#: includes/shortcodes/count-up.php:46
+msgid "Count up"
+msgstr ""
+
+#: includes/shortcodes/count-up.php:47
+msgid "Add count up"
+msgstr ""
+
+#: includes/shortcodes/count-up.php:56 includes/shortcodes/countdown.php:56
+msgid "Date"
+msgstr ""
+
+#: includes/shortcodes/count-up.php:61 includes/shortcodes/countdown.php:61
+msgid "Enter date in <b>yyyy-mm-dd</b> format."
+msgstr ""
+
+#: includes/shortcodes/count-up.php:65 includes/shortcodes/countdown.php:65
+msgid "Format"
+msgstr ""
+
+#: includes/shortcodes/count-up.php:70 includes/shortcodes/countdown.php:70
+msgid "Enter date format. Default is <b>dHMS</b>."
+msgstr ""
+
+#: includes/shortcodes/countdown.php:46
+msgid "Countdown"
+msgstr ""
+
+#: includes/shortcodes/countdown.php:47
+msgid "Add countdown"
+msgstr ""
+
+#: includes/shortcodes/gallery-item.php:90
+#: includes/shortcodes/gallery-item.php:94
+msgid "Gallery Item"
+msgstr ""
+
+#: includes/shortcodes/gallery-item.php:91
+msgid "Add gallery item"
+msgstr ""
+
+#: includes/shortcodes/gallery-item.php:114
+msgid "Enter gallery item title."
+msgstr ""
+
+#: includes/shortcodes/gallery-item.php:122
+msgid "Enter gallery item subtitle."
+msgstr ""
+
+#: includes/shortcodes/gallery-item.php:126
+msgid "Category"
+msgstr ""
+
+#: includes/shortcodes/gallery-item.php:131
+msgid "Enter gallery item category."
+msgstr ""
+
+#: includes/shortcodes/gallery-item.php:135
+msgid "Link Type"
+msgstr ""
+
+#: includes/shortcodes/gallery-item.php:143
+msgid "Select gallery item link type."
+msgstr ""
+
+#: includes/shortcodes/gallery-item.php:152
+#: includes/shortcodes/service-item.php:203
+msgid "Add link to service."
+msgstr ""
+
+#: includes/shortcodes/gallery.php:100
+msgid "Add gallery"
+msgstr ""
+
+#: includes/shortcodes/gallery.php:122
+msgid "Select gallery type."
+msgstr ""
+
+#: includes/shortcodes/gallery.php:136
+msgid "Select gallery layout."
+msgstr ""
+
+#: includes/shortcodes/gallery.php:144
+msgid "With Space"
+msgstr ""
+
+#: includes/shortcodes/gallery.php:145
+msgid "Without Space"
+msgstr ""
+
+#: includes/shortcodes/gallery.php:148
+msgid "Select gallery style."
+msgstr ""
+
+#: includes/shortcodes/gallery.php:152
+msgid "Make gallery filterable?"
+msgstr ""
+
+#: includes/shortcodes/gallery.php:161
+msgid "All category text"
+msgstr ""
+
+#: includes/shortcodes/gallery.php:166
+msgid "Enter in all category text."
+msgstr ""
+
+#: includes/shortcodes/gallery.php:170
+msgid "Categories"
+msgstr ""
+
+#: includes/shortcodes/gallery.php:175
+msgid "Enter one category per line."
+msgstr ""
+
+#: includes/shortcodes/gallery.php:179
+msgid "Items to display on screen"
+msgstr ""
+
+#: includes/shortcodes/gallery.php:184
+msgid "Maximum items to display at a time."
+msgstr ""
+
+#: includes/shortcodes/gallery.php:188 includes/shortcodes/image-slider.php:143
+#: includes/wc-addons/shortcodes/products.php:225
+msgid "Auto play"
+msgstr ""
+
+#: includes/shortcodes/gallery.php:193 includes/shortcodes/image-slider.php:147
+#: includes/wc-addons/shortcodes/products.php:230
+msgid ""
+"Change to any integrer for example <b>5000</b> to play every <b>5</b> "
+"seconds. Leave blank to disable autoplay."
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:74
+msgid "Image Slider"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:75
+msgid "Animated slider with images"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:85
+msgid "Images"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:90
+msgid "Select images from media library."
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:94
+msgid "Ratio"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:98
+msgid "1:1"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:99
+msgid "2:3"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:100
+msgid "3:4"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:101
+msgid "4:3"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:102
+msgid "16:9"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:105
+msgid "Select ratio of images."
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:113
+#: includes/shortcodes/image-slider.php:126
+msgid "Always"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:114
+#: includes/shortcodes/image-slider.php:127
+msgid "Only on hover"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:122
+msgid "Show pagination"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:135
+msgid "Color"
+msgstr ""
+
+#: includes/shortcodes/image-slider.php:139
+msgid "Choose color for navigation and pagination."
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:107
+msgid "Map & Contact Form"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:108
+msgid "Add the map and the contact form"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:120
+msgid "Contact Us"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:122
+msgid "Enter section title of contact form."
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:128
+msgid ""
+"Our Company is the best, meet the creative team that never sleeps. Say "
+"something to us we will answer to you."
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:130
+msgid "Enter subtitle."
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:134
+msgid "Name placeholder"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:138
+msgid "Enter name placeholder."
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:142
+msgid "Email placeholder"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:146
+msgid "Enter email placeholder."
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:159
+msgid "Phone placeholder"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:162
+msgid "Your phone here"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:164
+msgid "Enter phone placeholder."
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:168
+msgid "Message placeholder"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:170
+msgid "Your message here"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:172
+msgid "Enter message placeholder."
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:176
+msgid "Submit value"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:178
+msgid "Send message"
+msgstr ""
+
+#: includes/shortcodes/map-and-contact-form.php:180
+#: includes/wc-addons/shortcodes/featured-products.php:190
+#: includes/wc-addons/shortcodes/products.php:247
+msgid "Enter button text."
+msgstr ""
+
+#: includes/shortcodes/map.php:131
+msgid "Add the map"
+msgstr ""
+
+#: includes/shortcodes/map.php:141
+msgid "Do not Inherit from Theme Options"
+msgstr ""
+
+#: includes/shortcodes/map.php:157
+msgid "Please enter the latitude for the map center point."
+msgstr ""
+
+#: includes/shortcodes/map.php:167
+msgid "Please enter the longitude for the map center point."
+msgstr ""
+
+#: includes/shortcodes/map.php:177
+msgid ""
+"Value should be between 1-18, 1 being the entire earth and 18 being right at "
+"street level."
+msgstr ""
+
+#: includes/shortcodes/map.php:212
+msgid "Subtle Grayscale"
+msgstr ""
+
+#: includes/shortcodes/map.php:213
+msgid "Blue Water"
+msgstr ""
+
+#: includes/shortcodes/map.php:214
+msgid "Shades of Grey"
+msgstr ""
+
+#: includes/shortcodes/map.php:215
+msgid "Pale Dawn"
+msgstr ""
+
+#: includes/shortcodes/map.php:216
+msgid "Apple Maps-esque"
+msgstr ""
+
+#: includes/shortcodes/map.php:217
+msgid "Light Monochrome"
+msgstr ""
+
+#: includes/shortcodes/map.php:218
+msgid "Greyscale"
+msgstr ""
+
+#: includes/shortcodes/map.php:219
+msgid "Neutral Blue"
+msgstr ""
+
+#: includes/shortcodes/map.php:220
+msgid "Become a Dinosaur"
+msgstr ""
+
+#: includes/shortcodes/map.php:221
+msgid "Blue Gray"
+msgstr ""
+
+#: includes/shortcodes/map.php:222
+msgid "Icy Blue"
+msgstr ""
+
+#: includes/shortcodes/map.php:223
+msgid "Clean Cut"
+msgstr ""
+
+#: includes/shortcodes/map.php:224
+msgid "Muted Blue"
+msgstr ""
+
+#: includes/shortcodes/map.php:225
+msgid "Old Timey"
+msgstr ""
+
+#: includes/shortcodes/map.php:226
+msgid "Red Hues"
+msgstr ""
+
+#: includes/shortcodes/map.php:227
+msgid "Nature"
+msgstr ""
+
+#: includes/shortcodes/map.php:228
+msgid "Turquoise Water"
+msgstr ""
+
+#: includes/shortcodes/map.php:229
+msgid "Just Places"
+msgstr ""
+
+#: includes/shortcodes/map.php:230
+msgid "Ultra Light"
+msgstr ""
+
+#: includes/shortcodes/map.php:231
+msgid "Subtle Green"
+msgstr ""
+
+#: includes/shortcodes/map.php:232
+msgid "Simple & Light"
+msgstr ""
+
+#: includes/shortcodes/map.php:235
+msgid "Please select the style the map want to look like."
+msgstr ""
+
+#: includes/shortcodes/map.php:327
+msgid "Please select the options you want to apply on the map."
+msgstr ""
+
+#: includes/shortcodes/map.php:340 includes/shortcodes/map.php:350
+#: includes/shortcodes/map.php:360
+msgid "Marker"
+msgstr ""
+
+#: includes/shortcodes/map.php:347
+msgid "Do you want to use a custom image for the map markers?"
+msgstr ""
+
+#: includes/shortcodes/map.php:357
+msgid ""
+"Please upload the image that will be used for all the markers on the map."
+msgstr ""
+
+#: includes/shortcodes/map.php:367
+msgid "This will cause your markers to do a quick bounce as they load in."
+msgstr ""
+
+#: includes/shortcodes/map.php:370 includes/shortcodes/map.php:380
+#: includes/shortcodes/map.php:390 includes/shortcodes/map.php:400
+#: includes/shortcodes/map.php:410 includes/shortcodes/map.php:420
+#: includes/shortcodes/map.php:430 includes/shortcodes/map.php:440
+#: includes/shortcodes/map.php:450 includes/shortcodes/map.php:460
+#: includes/shortcodes/map.php:470 includes/shortcodes/map.php:480
+#: includes/shortcodes/map.php:490 includes/shortcodes/map.php:500
+#: includes/shortcodes/map.php:510 includes/shortcodes/map.php:520
+#: includes/shortcodes/map.php:530 includes/shortcodes/map.php:540
+#: includes/shortcodes/map.php:550 includes/shortcodes/map.php:560
+#: includes/shortcodes/map.php:570 includes/shortcodes/map.php:580
+#: includes/shortcodes/map.php:590 includes/shortcodes/map.php:600
+#: includes/shortcodes/map.php:610 includes/shortcodes/map.php:620
+#: includes/shortcodes/map.php:630 includes/shortcodes/map.php:640
+#: includes/shortcodes/map.php:650 includes/shortcodes/map.php:660
+msgid "Locations"
+msgstr ""
+
+#: includes/shortcodes/map.php:372
+msgid "Latitude #1"
+msgstr ""
+
+#: includes/shortcodes/map.php:377 includes/shortcodes/map.php:397
+msgid "Please enter the latitude for your #1 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:382
+msgid "Longitude #1"
+msgstr ""
+
+#: includes/shortcodes/map.php:387
+msgid "Please enter the longitude for your #1 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:392
+msgid "Map Infowindow Text #1"
+msgstr ""
+
+#: includes/shortcodes/map.php:402
+msgid "Latitude #2"
+msgstr ""
+
+#: includes/shortcodes/map.php:407 includes/shortcodes/map.php:427
+msgid "Please enter the latitude for your #2 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:412
+msgid "Longitude #2"
+msgstr ""
+
+#: includes/shortcodes/map.php:417
+msgid "Please enter the longitude for your #2 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:422
+msgid "Map Infowindow Text #2"
+msgstr ""
+
+#: includes/shortcodes/map.php:432
+msgid "Latitude #3"
+msgstr ""
+
+#: includes/shortcodes/map.php:437 includes/shortcodes/map.php:457
+msgid "Please enter the latitude for your #3 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:442
+msgid "Longitude #3"
+msgstr ""
+
+#: includes/shortcodes/map.php:447
+msgid "Please enter the longitude for your #3 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:452
+msgid "Map Infowindow Text #3"
+msgstr ""
+
+#: includes/shortcodes/map.php:462
+msgid "Latitude #4"
+msgstr ""
+
+#: includes/shortcodes/map.php:467 includes/shortcodes/map.php:487
+msgid "Please enter the latitude for your #4 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:472
+msgid "Longitude #4"
+msgstr ""
+
+#: includes/shortcodes/map.php:477
+msgid "Please enter the longitude for your #4 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:482
+msgid "Map Infowindow Text #4"
+msgstr ""
+
+#: includes/shortcodes/map.php:492
+msgid "Latitude #5"
+msgstr ""
+
+#: includes/shortcodes/map.php:497 includes/shortcodes/map.php:517
+msgid "Please enter the latitude for your #5 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:502
+msgid "Longitude #5"
+msgstr ""
+
+#: includes/shortcodes/map.php:507
+msgid "Please enter the longitude for your #5 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:512
+msgid "Map Infowindow Text #5"
+msgstr ""
+
+#: includes/shortcodes/map.php:522
+msgid "Latitude #6"
+msgstr ""
+
+#: includes/shortcodes/map.php:527 includes/shortcodes/map.php:547
+msgid "Please enter the latitude for your #6 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:532
+msgid "Longitude #6"
+msgstr ""
+
+#: includes/shortcodes/map.php:537
+msgid "Please enter the longitude for your #6 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:542
+msgid "Map Infowindow Text #6"
+msgstr ""
+
+#: includes/shortcodes/map.php:552
+msgid "Latitude #7"
+msgstr ""
+
+#: includes/shortcodes/map.php:557 includes/shortcodes/map.php:577
+msgid "Please enter the latitude for your #7 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:562
+msgid "Longitude #7"
+msgstr ""
+
+#: includes/shortcodes/map.php:567
+msgid "Please enter the longitude for your #7 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:572
+msgid "Map Infowindow Text #7"
+msgstr ""
+
+#: includes/shortcodes/map.php:582
+msgid "Latitude #8"
+msgstr ""
+
+#: includes/shortcodes/map.php:587 includes/shortcodes/map.php:607
+msgid "Please enter the latitude for your #8 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:592
+msgid "Longitude #8"
+msgstr ""
+
+#: includes/shortcodes/map.php:597
+msgid "Please enter the longitude for your #8 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:602
+msgid "Map Infowindow Text #8"
+msgstr ""
+
+#: includes/shortcodes/map.php:612
+msgid "Latitude #9"
+msgstr ""
+
+#: includes/shortcodes/map.php:617 includes/shortcodes/map.php:637
+msgid "Please enter the latitude for your #9 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:622
+msgid "Longitude #9"
+msgstr ""
+
+#: includes/shortcodes/map.php:627
+msgid "Please enter the longitude for your #9 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:632
+msgid "Map Infowindow Text #9"
+msgstr ""
+
+#: includes/shortcodes/map.php:642
+msgid "Latitude #10"
+msgstr ""
+
+#: includes/shortcodes/map.php:647 includes/shortcodes/map.php:667
+msgid "Please enter the latitude for your #10 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:652
+msgid "Longitude #10"
+msgstr ""
+
+#: includes/shortcodes/map.php:657
+msgid "Please enter the longitude for your #10 location."
+msgstr ""
+
+#: includes/shortcodes/map.php:662
+msgid "Map Infowindow Text #10"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:138
+msgid "Menu Item"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:139
+msgid "Add a single menu item"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:161
+msgid "Enter title of menu item."
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:169
+msgid "Enter description of menu item."
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:176
+msgid "Grid"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:177
+msgid "List"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:180
+msgid "Select menu style."
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:184
+msgid "Ribbon"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:189
+msgid "Enter ribbon text of menu item. Leave blank if no ribbon is needed."
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:193
+msgid "Image Display"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:197
+#: includes/wc-addons/shortcodes/products-with-filter.php:196
+#: includes/wc-addons/shortcodes/products.php:206
+msgid "Portrait"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:198
+#: includes/wc-addons/shortcodes/products-with-filter.php:197
+#: includes/wc-addons/shortcodes/products.php:207
+msgid "Landscape"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:199
+#: includes/wc-addons/shortcodes/products-with-filter.php:198
+#: includes/wc-addons/shortcodes/products.php:208
+msgid "Square"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:203
+#: includes/wc-addons/shortcodes/products-with-filter.php:202
+#: includes/wc-addons/shortcodes/products.php:212
+msgid "Select product view."
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:207
+msgid "Price"
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:210
+msgid "Enter item price along with the desired currency."
+msgstr ""
+
+#: includes/shortcodes/menu-item.php:218
+msgid "Add link to product."
+msgstr ""
+
+#: includes/shortcodes/milestone.php:51
+msgid "Milestone"
+msgstr ""
+
+#: includes/shortcodes/milestone.php:52
+msgid "Add milestone"
+msgstr ""
+
+#: includes/shortcodes/milestone.php:66
+msgid "Enter milestone text."
+msgstr ""
+
+#: includes/shortcodes/milestone.php:70
+msgid "Counter"
+msgstr ""
+
+#: includes/shortcodes/milestone.php:74
+msgid "Enter milestone counter."
+msgstr ""
+
+#: includes/shortcodes/milestone.php:78
+msgid "Delay"
+msgstr ""
+
+#: includes/shortcodes/milestone.php:82
+msgid "Enter time delay of milestone counter. The default delay is 10ms."
+msgstr ""
+
+#: includes/shortcodes/milestone.php:86
+msgid "Time"
+msgstr ""
+
+#: includes/shortcodes/milestone.php:90
+msgid "Enter time between each counter increment - default 1000 milliseconds?"
+msgstr ""
+
+#: includes/shortcodes/others.php:202
+msgid "wp nonce is wrong!"
+msgstr ""
+
+#: includes/shortcodes/others.php:206
+msgid "Missing MailChip API or MailChip List ID!"
+msgstr ""
+
+#: includes/shortcodes/others.php:225
+msgid "You have been subscribed successfully."
+msgstr ""
+
+#: includes/shortcodes/others.php:228
+msgid "Please fill all fields!"
+msgstr ""
+
+#: includes/shortcodes/others.php:287
+msgid "Loading tweets..."
+msgstr ""
+
+#: includes/shortcodes/service-item.php:106
+msgid "Service Item"
+msgstr ""
+
+#: includes/shortcodes/service-item.php:107
+msgid "Add a service item"
+msgstr ""
+
+#: includes/shortcodes/service-item.php:124
+msgid "Select item service type."
+msgstr ""
+
+#: includes/shortcodes/service-item.php:128
+#: includes/wc-addons/shortcodes/products-with-filter.php:168
+msgid "Icon"
+msgstr ""
+
+#: includes/shortcodes/service-item.php:137
+msgid "Pick an icon from the library."
+msgstr ""
+
+#: includes/shortcodes/service-item.php:151
+msgid "Image Alingment"
+msgstr ""
+
+#: includes/shortcodes/service-item.php:159
+msgid "Select image alignment."
+msgstr ""
+
+#: includes/shortcodes/service-item.php:168
+msgid "Enter service title."
+msgstr ""
+
+#: includes/shortcodes/service-item.php:176
+msgid "Enter service description."
+msgstr ""
+
+#: includes/shortcodes/service-item.php:180
+msgid "Add Link"
+msgstr ""
+
+#: includes/shortcodes/service-item.php:185
+msgid "Check to add link to service item."
+msgstr ""
+
+#: includes/shortcodes/service-item.php:189
+msgid "Link Text"
+msgstr ""
+
+#: includes/shortcodes/service-item.php:192
+msgid "Read More"
+msgstr ""
+
+#: includes/shortcodes/service-item.php:194
+msgid "Enter link text."
+msgstr ""
+
+#: includes/shortcodes/title-section.php:51
+msgid "Title Section"
+msgstr ""
+
+#: includes/shortcodes/title-section.php:52
+msgid "Add title section"
+msgstr ""
+
+#: includes/shortcodes/title-section.php:66
+msgid ""
+"Enter text which will be used as title. Leave blank if no title is needed."
+msgstr ""
+
+#: includes/shortcodes/title-section.php:74
+msgid ""
+"Enter text which will be used as subtitle. Leave blank if no subtitle is "
+"needed."
+msgstr ""
+
+#: includes/shortcodes/title-section.php:81
+msgid "Overline"
+msgstr ""
+
+#: includes/shortcodes/title-section.php:82
+msgid "Inline"
+msgstr ""
+
+#: includes/shortcodes/title-section.php:85
+msgid "Select title style."
+msgstr ""
+
+#: includes/shortcodes/title-section.php:89
+msgid "Alignment"
+msgstr ""
+
+#: includes/shortcodes/title-section.php:93
+msgid "Center"
+msgstr ""
+
+#: includes/shortcodes/title-section.php:97
+msgid "Select title alignment."
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:53
+msgid "In Container"
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:54
+msgid "Full Width Content"
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:62
+msgid "Parallax"
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:67
+msgid ""
+"Add parallax type background for row (Note: If no image is specified, "
+"parallax will use background image from Design Options)."
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:83
+msgid "Color Overlay"
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:93
+msgid "Equal Height Columns"
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:98
+msgid "Makes the height of all columns elements exactly equal."
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:103
+msgid "Row ID"
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:108
+msgid ""
+"Use this to option to add an ID onto your row. This can then be used to "
+"target the row with CSS or as an anchor point to scroll to when the relevant "
+"link is clicked."
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:126
+msgid "Vertical Align"
+msgstr ""
+
+#: includes/vc-addons/vc-modify.php:131
+msgid "Middle"
+msgstr ""
+
+#: includes/vu-actions.php:272
+msgid "Warning:"
+msgstr ""
+
+#: includes/vu-actions.php:273
+msgid "Please set up the menu location for this theme. <a href=\""
+msgstr ""
+
+#: includes/vu-actions.php:359
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/vu-actions.php:360
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/vu-actions.php:361
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/vu-actions.php:362
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/vu-actions.php:363
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:364
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:365
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:366
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:367
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:368
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:369
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:370
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:372
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vu-actions.php:373
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/vu-actions.php:374
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/vu-actions.php:375
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/vu-functions.php:919
+msgid "Share"
+msgstr ""
+
+#: includes/vu-functions.php:959
+msgid "by"
+msgstr ""
+
+#: includes/vu-functions.php:959
+msgid "post on"
+msgstr ""
+
+#: includes/vu-functions.php:959
+msgid "Edit"
+msgstr ""
+
+#: includes/vu-functions.php:959
+msgid "Reply"
+msgstr ""
+
+#: includes/vu-functions.php:961
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:19
+#: includes/wc-addons/shortcodes/featured-products.php:188
+msgid "Order Now"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:141
+msgid "Featured Products"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:142
+msgid "Show featured products"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:151
+msgid "Product 1"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:156
+msgid "Select first product to be shown is the offer."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:160
+msgid "Product 2"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:165
+msgid "Select second product to be shown is the offer."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:169
+msgid "Product 3"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:174
+msgid "Select third product to be shown is the offer."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:178
+msgid "Ribbon Text"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:182
+msgid "Enter ribbon text of the shortcode."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/featured-products.php:186
+msgid "Order Button Text"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products-with-filter.php:146
+msgid "Products with Filter"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products-with-filter.php:147
+msgid "Show the products with filter"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products-with-filter.php:156
+msgid "Product Category"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products-with-filter.php:160
+msgid "Select product category."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products-with-filter.php:164
+msgid "Filter type"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products-with-filter.php:169
+msgid "Text"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products-with-filter.php:173
+msgid "Select portfolio filter type."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products-with-filter.php:188
+#: includes/wc-addons/shortcodes/products.php:198
+msgid "Select products layout."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products-with-filter.php:192
+#: includes/wc-addons/shortcodes/products.php:202
+msgid "Product View"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:140
+msgid "Products"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:141
+msgid "Show products"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:150
+msgid "Products Query"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:162
+msgid "Create WordPress loop, to show products from your site."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:174
+msgid "Select products type."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:178
+msgid "Rows"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:183
+msgid "Enter number of row with products."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:216
+msgid "Scroll per page"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:221
+msgid "Check to scroll per page."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:234
+msgid "Show Button"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:238
+msgid "Check to show button."
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:242
+msgid "Button Text"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:245
+msgid "See all our products"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:251
+msgid "Button URL (Link)"
+msgstr ""
+
+#: includes/wc-addons/shortcodes/products.php:256
+msgid "Add link to button."
+msgstr ""
+
+#: search.php:17
+msgid "No results found."
+msgstr ""
+
+#: searchform.php:2
+msgctxt "bakery"
+msgid "Type and hit enter"
+msgstr ""
+
+#: searchform.php:3
+msgctxt "bakery"
+msgid "Search"
+msgstr ""
