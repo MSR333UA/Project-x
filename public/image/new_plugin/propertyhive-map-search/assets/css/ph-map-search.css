@@ -1,0 +1,31 @@
+.propertyhive-map-canvas-wrapper 								{ clear:both; height:500px; position:relative; }
+.propertyhive-map-canvas-wrapper .map-loading 					{ display:none; position:absolute; z-index:99999; box-sizing:border-box; background:rgba(0, 0, 0, 0.4); color:#FFF; top:0; left:0; text-align:center; width:100%; height:100%; }
+.propertyhive-map-canvas-wrapper .map-loading .ph-table 		{ display:table; width:100%; height:100%; }
+.propertyhive-map-canvas-wrapper .map-loading .ph-table-cell 	{ display:table-cell; width:100%; height:100%; vertical-align:middle; }
+.propertyhive-map-canvas-wrapper .map-over-limit 				{ display:none; position:absolute; z-index:99999; background:#FFF; padding:6px 20px; border:1px solid #000; bottom:50px; left:50%; transform:translate(-50%, 0); }
+.propertyhive-map-canvas 										{ height:100%; }
+.propertyhive-draw-a-search-controls 							{ position:absolute; z-index:401; top:20px; right:20px; width:160px; }
+.propertyhive-draw-a-search-controls a 							{ display:block; padding:6px 0; white-space:nowrap; text-transform:uppercase; text-align:center; font-size:13px; margin-bottom:5px; border:2px solid #AAA; font-weight:700; background:#EEE; color:#000; }
+.propertyhive-draw-a-search-controls a[disabled] 				{ opacity:0.4; }
+.propertyhive-draw-a-search-controls a:hover 					{ background:#DDD; }
+.propertyhive-draw-a-search-controls a#ph_draw_a_search_clear 	{  }
+.propertyhive-draw-a-search-controls a#ph_draw_a_search_view,
+.propertyhive-draw-a-search-controls a#ph_draw_a_search_draw 	{ background:#f6700c; border:0; color:#FFF; padding:13px 0; }
+
+.properties-map-popup 											{ width:330px; max-height:220px; overflow-y:auto; font-size:12px; background:#FFF; border:1px solid #BBB; }
+.properties-map-popup.leaflet 									{ border:0; width:300px; }
+.properties-map-popup .title-close 								{ padding:4px 13px; background:#666; }
+.properties-map-popup .title-close .close 						{ float:right; font-size:11px; }
+.properties-map-popup .title-close .close a 					{ text-decoration:none; color:#FFF; }
+.properties-map-popup .properties 								{  }
+.properties-map-popup .properties .property 					{ padding:10px 13px; }
+.properties-map-popup.leaflet .properties .property 			{ padding-left:0; padding-right:0; }
+.properties-map-popup .properties .property .image 				{ float:left; width:125px; }
+.properties-map-popup .properties .property .image img 			{ max-width:100%; border:1px solid #DDD; padding:3px; }
+.properties-map-popup .properties .property .details 			{ float:right; width:153px; }
+.properties-map-popup .properties .property .details .address 	{ margin-bottom:5px; font-size:14px; font-weight:600 }
+.properties-map-popup .properties .property .details .address a {  }
+.properties-map-popup .properties .property .details .price 	{ margin-bottom:5px; font-size:13px; }
+.properties-map-popup .properties .property .details .summary 	{  }
+
+.leaflet-draw.leaflet-control { display: none;}

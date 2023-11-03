@@ -1,0 +1,6 @@
+.autocomplete-container { position:relative; }
+.autocomplete-results { position:absolute; z-index:9999; left:0; top:0; min-width:100%; display:none; max-height:250px; overflow-y:auto; }
+.autocomplete-results ul { list-style-type:none; margin:0; padding:0; background:#FFF; border:1px solid #DDD; }
+.autocomplete-results ul li { cursor:pointer; padding:5px 8px; white-space:nowrap; }
+.autocomplete-results ul li.active,
+.autocomplete-results ul li:hover { background:#DDD; }

@@ -1,0 +1,8 @@
+.propertyhive ul.agents { list-style-type:none; margin:0 0 1em; padding:0; clear:both }
+.propertyhive ul.agents li { margin:0; padding-top:1em; padding-bottom:1em; border-bottom:1px solid #CCC; }
+.propertyhive ul.agents li .agent-logo { float:left; width:20%; }
+.propertyhive ul.agents li .agent-logo img { max-width:100%; }
+.propertyhive ul.agents li .details { float:right; width:77%; }
+.propertyhive ul.agents li .details h3 { padding:0; margin:0 0 0.3rem; }
+.propertyhive ul.agents li .details .branches {  }
+.propertyhive ul.agents li .details .branches .branch { padding-top:1em; padding-bottom:1em; }

@@ -1,0 +1,13 @@
+.create-task-form { display:none; background:#f1f1f1; border:1px solid #DDD; padding:15px 15px 15px; }
+.create-task-form a.delete-task { display:none; line-height:28px; color:#a00; }
+
+.tasks-grid {  }
+.open-tasks { float:left; width:49%; border:1px solid #EEE; padding:10px; box-sizing:border-box; }
+.open-tasks .task-completed { display:none; }
+.completed-tasks { float:right; width:49%; border:1px solid #EEE; padding:10px; box-sizing:border-box; max-height:250px; overflow-y:auto; }
+.tasks-grid .task { background:#f1f1f1; border:1px solid #DDD; padding:10px; margin-bottom:5px; }
+.tasks-grid .task .task-title { font-weight:700; font-size:15px; margin-bottom:3px; }
+.tasks-grid .task .task-details { font-style:italic; }
+.tasks-grid .task .task-due-date { opacity:0.5; font-size:13px; }
+.tasks-grid .task .task-assigned-to { opacity:0.5; font-size:13px; }
+.tasks-grid .completed-tasks .task { opacity:0.6; }
