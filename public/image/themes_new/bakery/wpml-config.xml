@@ -1,0 +1,93 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">portfolio-item</custom-type>
+		<custom-type translate="1">testimonial</custom-type>
+		<custom-type translate="1">personnel</custom-type>
+	</custom-types>
+		<taxonomies>
+		<taxonomy translate="1">personnel-category</taxonomy>
+		<taxonomy translate="1">testimonial-category</taxonomy>
+		<taxonomy translate="1">portfolio-category</taxonomy>
+		<taxonomy translate="1">portfolio-tag</taxonomy>
+	</taxonomies>
+	<language-switcher-settings>
+		<key name="icl_language_switcher_sidebar">1</key>
+		<key name="icl_widget_title_show">1</key>
+		<key name="icl_lang_sel_type">dropdown</key>
+		<key name="icl_lso_link_empty">0</key>
+		<key name="icl_lso_flags">1</key>
+		<key name="icl_lso_native_lang">1</key>
+		<key name="icl_lso_display_lang">0</key>
+		<key name="icl_lang_sel_footer">0</key>
+		<key name="icl_post_availability">1</key>
+		<key name="icl_post_availability_position">below</key>
+		<key name="icl_post_availability_text">This post is also available in: %s</key>
+		</language-switcher-settings>
+	</language-switcher-settings>
+	<admin-texts>
+        <key name="vu_theme_options">
+            <key name="top-bar-left" />
+            <key name="top-bar-right" />
+
+            <key name="ribbon-name-1" />
+            <key name="ribbon-name-2" />
+            <key name="ribbon-name-3" />
+            <key name="ribbon-name-4" />
+            <key name="ribbon-name-5" />
+            <key name="ribbon-name-6" />
+            <key name="ribbon-name-7" />
+            <key name="ribbon-name-8" />
+            <key name="ribbon-name-9" />
+            <key name="ribbon-name-10" />
+
+            <key name="related-portfolio-items-title" />
+            <key name="related-portfolio-items-subtitle" />
+
+            <key name="related-products-title" />
+            <key name="related-products-subtitle" />
+            
+            <key name="order-msg-sent-ok" />
+            <key name="order-msg-sent-ng" />
+            <key name="order-msg-validation-error" />
+            <key name="order-msg-invalid-required" />
+
+            <key name="msg-mail-sent-ok" />
+            <key name="msg-mail-sent-ng" />
+            <key name="msg-validation-error" />
+            <key name="msg-invalid-required" />
+
+            <key name="map-info1" />
+            <key name="map-info2" />
+            <key name="map-info3" />
+            <key name="map-info4" />
+            <key name="map-info5" />
+            <key name="map-info6" />
+            <key name="map-info7" />
+            <key name="map-info8" />
+            <key name="map-info9" />
+            <key name="map-info10" />
+            <key name="map-info11" />
+            <key name="map-info12" />
+            <key name="map-info13" />
+            <key name="map-info14" />
+            <key name="map-info15" />
+            <key name="map-info16" />
+            <key name="map-info17" />
+            <key name="map-info18" />
+            <key name="map-info19" />
+            <key name="map-info20" />
+            <key name="map-info21" />
+            <key name="map-info22" />
+            <key name="map-info23" />
+            <key name="map-info24" />
+            <key name="map-info25" />
+            <key name="map-info26" />
+            <key name="map-info27" />
+            <key name="map-info28" />
+            <key name="map-info29" />
+            <key name="map-info30" />
+
+            <key name="copyright-text" />
+        </key> 
+    </admin-texts>
+</wpml-config>

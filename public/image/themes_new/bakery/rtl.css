@@ -1,0 +1,270 @@
+/*
+	Theme Name: Bakery
+	Description: Adds support for languages written in a Right To Left (RTL) direction.
+	It's easy, just a matter of overwriting all the horizontal positioning attributes
+	of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+	See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+.vu_main-menu > ul > li:first-child {
+    border-left-color: rgba(104,79,64,0.2);
+}
+.vu_main-menu > ul > li:last-child {
+    border-left: none;
+}
+.vu_main-menu-container .vu_mm-left {
+	text-align: left;
+}
+.vu_main-menu-container .vu_mm-right {
+	text-align: right;
+}
+.vu_main-menu ul li ul.sub-menu {
+	left: auto;
+	right: 0;
+}
+.vu_main-menu ul li ul.sub-menu li > ul.sub-menu {
+	left: auto;
+	right: 100%;
+}
+.vu_main-menu ul li ul.sub-menu li a {
+	text-align: right;
+}
+
+.menu-button-container,
+.article-header-5,
+.testimonial .testimonial-content,
+.testimonials-slider .owl-controls,
+.widget.widget_archive li,
+.widget.widget_categories li,
+.vu_main-menu-container .vu_mm-left,
+.section-header.alignment-right {
+  text-align: left;
+}
+
+.vu_tb-list .sub-menu,
+.vu_main-menu-container .vu_mm-right,
+.vu_main-menu ul li ul.sub-menu li a,
+.section-header.alignment-left,
+.gallery-slider .owl-controls,
+.vu_btn-multiselect {
+	text-align: right;
+}
+
+
+.article-short .article-short-icon-container,
+.vu_color-overlay,
+.icon-opening-wrapper .icon-opening,
+.list-arrows .list-arrows-content,
+.list-numbers li,
+.list-values li .list-values-content,
+.post-preview .post-preview-image,
+.blog-post-comments .blog-post-comment-avatar,
+.blog-post .blog-post-footer .socials,
+.blog-post .blog-post-header h2,
+.pagination .pagination-item,
+.pagination .pagination-nav,
+.vu_menu-item .vu_menu-item-img-container,
+.price-label,
+.tabs-big-container .nav,
+.testimonial .testimonial-avatar-wrapper,
+.widget.widget_archive li a,
+.widget.widget_categories li a,
+.alignleft,
+.entry-content-wrapper a:hover .alignleft,
+.owl-carousel .owl-item {
+	float: right;
+}
+
+.list-arrows .list-arrows-value,
+.list-values li .list-values-value,
+.blog-post-comments .submit-comment,
+.blog-post .blog-post-footer .read-more-link,
+.blog-post .blog-post-header .blog-post-info,
+.blog-post .blog-post-tags,
+.vu_btn-multiselect .caret,
+.alignright,
+.entry-content-wrapper a:hover .alignright {
+	float: left;
+}
+
+.vu_btn-multiselect .multiselect-container li .checkbox {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.vu_btn-multiselect .multiselect-container li .checkbox input {
+    right: 0;
+}
+
+.vu_multiselect-wrapper .multiselect-container.dropdown-menu li img {
+	left: 15px;
+	right: auto;
+}
+
+.tabs-big-container .nav > li {
+	margin: 0 0 55px 35px;
+}
+
+.tabs-big-container .nav > li:after {
+	right: auto;
+    left: -44px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.product-label-container.big-label,
+.product-label-container-alt.big-label {
+	left: 23px;
+	right: auto;
+}
+
+.testimonial .testimonial-avatar-container .testimonial-avatar {
+	left: auto;
+	right: 20px;
+}
+
+.testimonial .testimonial-name {
+	left: auto;
+	right: 220px;
+}
+
+.vu_top-bar .vu_tp-left > span .fa,
+.vu_top-bar .vu_tp-right > span .fa {
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.vu_top-bar img.iclflag {
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.read-more-link {
+	padding-right: 0;
+	padding-left: 19px;
+}
+.read-more-link:after {
+	content: "\f177";
+	right: auto;
+	left: 0;
+}
+
+.widget .countdown-section {
+	margin: 0 0 0 4%;
+}
+
+.search-form input {
+	padding: 12px 10px 12px 35px;
+}
+.search-form:after {
+	right: auto;
+	left: 14px;
+}
+
+.post-preview .post-preview-info {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.vu_gallery .vu_g-filters .vu_g-filter {
+	margin: 0 10px 0 0;
+}
+.vu_gallery .vu_g-filters .vu_g-filter:before {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.vu_gallery .vu_g-filters .vu_g-filter:first-child {
+  margin-right: 0;
+}
+
+.filter-icons-container .filter-icon-wrapper:first-of-type .filter-icon-content:before {
+  display: block;
+}
+.filter-icons-container .filter-icon-wrapper:last-of-type .filter-icon-content:before {
+  display: none;
+}
+
+.vu_menu-item .vu_menu-item-img-container {
+	float: right;
+	margin: 0 0 40px 20px;
+}
+
+.form-subscribe .email-container {
+	margin-right: 0;
+	margin-left: 180px;
+}
+.form-subscribe .submit-container {
+	right: auto;
+	left: 0;
+}
+
+.item-check {
+	padding: 9px 28px 9px 0;
+}
+.item-check:after {
+	left: auto;
+	right: 0;
+}
+
+.list-unstyled {
+	padding-right: 0;
+}
+
+.has-icon {
+	padding-left: 0;
+	padding-right: 20px;
+}
+.has-icon > i.fa {
+	left: auto;
+	right: 0;
+}
+
+@media (max-width: 767px) {
+	.footer-column .icon-opening-content,
+	.pull-left-xs {
+		float: right;
+	}
+	.pull-right-xs {
+		float: left;
+	}
+}
+
+@media (min-width: 768px) {
+	.pull-left-sm {
+		float: right;
+	}
+	.pull-right-sm {
+		float: left;
+	}
+}
+@media (min-width: 992px) {
+  .pull-left-md {
+    float: right;
+  }
+  .pull-right-md {
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .pull-left-lg {
+    float: right;
+  }
+  .pull-right-lg {
+    float: left;
+  }
+}
