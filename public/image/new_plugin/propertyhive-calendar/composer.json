@@ -1,6 +1,0 @@
-{
-    "name": "propertyhive/propertyhive-calendar",
-    "require": {
-        "tplaner/When": "^2.1"
-    }
-}
